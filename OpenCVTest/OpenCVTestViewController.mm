@@ -2,35 +2,37 @@
 //  OpenCVTestViewController.m
 //  OpenCVTest
 //
-//  Created by timnit gebru on 7/20/12.
+//  Created by Shirmung Bielefeld on 7/21/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
 #import "OpenCVTestViewController.h"
 #include "test_precomp.hpp"
 
-
 @implementation OpenCVTestViewController
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
-}
-
-#pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    CV_TEST_MAIN("cv")
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
+    
+    cvtest::TS::ptr()->init("cv");
+    int argc = 0;
+    char **argv = NULL;
+    ::testing::InitGoogleTest(&argc, argv);
+    RUN_ALL_TESTS();
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-
-        return YES;
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end
