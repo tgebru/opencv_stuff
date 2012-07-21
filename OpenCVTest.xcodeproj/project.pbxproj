@@ -15,7 +15,16 @@
 		7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */; };
 		7A023B6815BA54D00021A6DD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6615BA54D00021A6DD /* MainStoryboard_iPhone.storyboard */; };
 		7A023B6B15BA54D00021A6DD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */; };
-		7A023B6E15BA54D00021A6DD /* OpenCVTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.m */; };
+		7A023B6E15BA54D00021A6DD /* OpenCVTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.mm */; };
+		7A023B7515BA554B0021A6DD /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A023B7415BA554B0021A6DD /* opencv2.framework */; };
+		7A023B7D15BA56C50021A6DD /* test_affine3d_estimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B7C15BA56C50021A6DD /* test_affine3d_estimator.cpp */; };
+		7A023B8015BA56E90021A6DD /* test_precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B7E15BA56E90021A6DD /* test_precomp.cpp */; };
+		7A023B8B15BA57ED0021A6DD /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8415BA57EC0021A6DD /* precomp.cpp */; };
+		7A023B8C15BA57ED0021A6DD /* ts_arrtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8615BA57EC0021A6DD /* ts_arrtest.cpp */; };
+		7A023B8D15BA57ED0021A6DD /* ts_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8715BA57ED0021A6DD /* ts_func.cpp */; };
+		7A023B8E15BA57ED0021A6DD /* ts_gtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8815BA57ED0021A6DD /* ts_gtest.cpp */; };
+		7A023B8F15BA57ED0021A6DD /* ts_perf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8915BA57ED0021A6DD /* ts_perf.cpp */; };
+		7A023B9015BA57ED0021A6DD /* ts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8A15BA57ED0021A6DD /* ts.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +32,30 @@
 		7A023B5415BA54D00021A6DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A023B5615BA54D00021A6DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A023B5815BA54D00021A6DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7A023B5C15BA54D00021A6DD /* OpenCVTest-Info.plist */ = {isa = PBXFileReference; path = "OpenCVTest-Info.plist"; sourceTree = "<group>"; };
+		7A023B5C15BA54D00021A6DD /* OpenCVTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCVTest-Info.plist"; sourceTree = "<group>"; };
 		7A023B5E15BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A023B6015BA54D00021A6DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7A023B6215BA54D00021A6DD /* OpenCVTest-Prefix.pch */ = {isa = PBXFileReference; path = "OpenCVTest-Prefix.pch"; sourceTree = "<group>"; };
-		7A023B6315BA54D00021A6DD /* OpenCVTestAppDelegate.h */ = {isa = PBXFileReference; path = OpenCVTestAppDelegate.h; sourceTree = "<group>"; };
+		7A023B6215BA54D00021A6DD /* OpenCVTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVTest-Prefix.pch"; sourceTree = "<group>"; };
+		7A023B6315BA54D00021A6DD /* OpenCVTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVTestAppDelegate.h; sourceTree = "<group>"; };
 		7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVTestAppDelegate.m; sourceTree = "<group>"; };
 		7A023B6715BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		7A023B6A15BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		7A023B6C15BA54D00021A6DD /* OpenCVTestViewController.h */ = {isa = PBXFileReference; path = OpenCVTestViewController.h; sourceTree = "<group>"; };
-		7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVTestViewController.m; sourceTree = "<group>"; };
+		7A023B6C15BA54D00021A6DD /* OpenCVTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVTestViewController.h; sourceTree = "<group>"; };
+		7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVTestViewController.mm; sourceTree = "<group>"; };
+		7A023B7415BA554B0021A6DD /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		7A023B7C15BA56C50021A6DD /* test_affine3d_estimator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_affine3d_estimator.cpp; sourceTree = "<group>"; };
+		7A023B7E15BA56E90021A6DD /* test_precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_precomp.cpp; sourceTree = "<group>"; };
+		7A023B7F15BA56E90021A6DD /* test_precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_precomp.hpp; sourceTree = "<group>"; };
+		7A023B8115BA577E0021A6DD /* ts_gtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts_gtest.h; sourceTree = "<group>"; };
+		7A023B8215BA577F0021A6DD /* ts_perf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ts_perf.hpp; sourceTree = "<group>"; };
+		7A023B8315BA577F0021A6DD /* ts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ts.hpp; sourceTree = "<group>"; };
+		7A023B8415BA57EC0021A6DD /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precomp.cpp; sourceTree = "<group>"; };
+		7A023B8515BA57EC0021A6DD /* precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precomp.hpp; sourceTree = "<group>"; };
+		7A023B8615BA57EC0021A6DD /* ts_arrtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_arrtest.cpp; sourceTree = "<group>"; };
+		7A023B8715BA57ED0021A6DD /* ts_func.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_func.cpp; sourceTree = "<group>"; };
+		7A023B8815BA57ED0021A6DD /* ts_gtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_gtest.cpp; sourceTree = "<group>"; };
+		7A023B8915BA57ED0021A6DD /* ts_perf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_perf.cpp; sourceTree = "<group>"; };
+		7A023B8A15BA57ED0021A6DD /* ts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,7 @@
 				7A023B5515BA54D00021A6DD /* UIKit.framework in Frameworks */,
 				7A023B5715BA54D00021A6DD /* Foundation.framework in Frameworks */,
 				7A023B5915BA54D00021A6DD /* CoreGraphics.framework in Frameworks */,
+				7A023B7515BA554B0021A6DD /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +76,19 @@
 		7A023B4515BA54CF0021A6DD = {
 			isa = PBXGroup;
 			children = (
+				7A023B8415BA57EC0021A6DD /* precomp.cpp */,
+				7A023B8515BA57EC0021A6DD /* precomp.hpp */,
+				7A023B8615BA57EC0021A6DD /* ts_arrtest.cpp */,
+				7A023B8715BA57ED0021A6DD /* ts_func.cpp */,
+				7A023B8815BA57ED0021A6DD /* ts_gtest.cpp */,
+				7A023B8915BA57ED0021A6DD /* ts_perf.cpp */,
+				7A023B8A15BA57ED0021A6DD /* ts.cpp */,
+				7A023B8115BA577E0021A6DD /* ts_gtest.h */,
+				7A023B8215BA577F0021A6DD /* ts_perf.hpp */,
+				7A023B8315BA577F0021A6DD /* ts.hpp */,
+				7A023B7E15BA56E90021A6DD /* test_precomp.cpp */,
+				7A023B7F15BA56E90021A6DD /* test_precomp.hpp */,
+				7A023B7C15BA56C50021A6DD /* test_affine3d_estimator.cpp */,
 				7A023B5A15BA54D00021A6DD /* OpenCVTest */,
 				7A023B5315BA54D00021A6DD /* Frameworks */,
 				7A023B5115BA54D00021A6DD /* Products */,
@@ -69,6 +106,7 @@
 		7A023B5315BA54D00021A6DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A023B7415BA554B0021A6DD /* opencv2.framework */,
 				7A023B5415BA54D00021A6DD /* UIKit.framework */,
 				7A023B5615BA54D00021A6DD /* Foundation.framework */,
 				7A023B5815BA54D00021A6DD /* CoreGraphics.framework */,
@@ -84,7 +122,7 @@
 				7A023B6615BA54D00021A6DD /* MainStoryboard_iPhone.storyboard */,
 				7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */,
 				7A023B6C15BA54D00021A6DD /* OpenCVTestViewController.h */,
-				7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.m */,
+				7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.mm */,
 				7A023B5B15BA54D00021A6DD /* Supporting Files */,
 			);
 			path = OpenCVTest;
@@ -166,7 +204,15 @@
 			files = (
 				7A023B6115BA54D00021A6DD /* main.m in Sources */,
 				7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */,
-				7A023B6E15BA54D00021A6DD /* OpenCVTestViewController.m in Sources */,
+				7A023B6E15BA54D00021A6DD /* OpenCVTestViewController.mm in Sources */,
+				7A023B7D15BA56C50021A6DD /* test_affine3d_estimator.cpp in Sources */,
+				7A023B8015BA56E90021A6DD /* test_precomp.cpp in Sources */,
+				7A023B8B15BA57ED0021A6DD /* precomp.cpp in Sources */,
+				7A023B8C15BA57ED0021A6DD /* ts_arrtest.cpp in Sources */,
+				7A023B8D15BA57ED0021A6DD /* ts_func.cpp in Sources */,
+				7A023B8E15BA57ED0021A6DD /* ts_gtest.cpp in Sources */,
+				7A023B8F15BA57ED0021A6DD /* ts_perf.cpp in Sources */,
+				7A023B9015BA57ED0021A6DD /* ts.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +296,10 @@
 		7A023B7215BA54D00021A6DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/OpenCVTest\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVTest/OpenCVTest-Prefix.pch";
 				INFOPLIST_FILE = "OpenCVTest/OpenCVTest-Info.plist";
@@ -261,6 +311,10 @@
 		7A023B7315BA54D00021A6DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_DIR)/OpenCVTest\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVTest/OpenCVTest-Prefix.pch";
 				INFOPLIST_FILE = "OpenCVTest/OpenCVTest-Info.plist";
