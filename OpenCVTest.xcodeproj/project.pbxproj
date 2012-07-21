@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A023B5515BA54D00021A6DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A023B5415BA54D00021A6DD /* UIKit.framework */; };
+		7A023B5715BA54D00021A6DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A023B5615BA54D00021A6DD /* Foundation.framework */; };
+		7A023B5915BA54D00021A6DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A023B5815BA54D00021A6DD /* CoreGraphics.framework */; };
+		7A023B5F15BA54D00021A6DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B5D15BA54D00021A6DD /* InfoPlist.strings */; };
+		7A023B6115BA54D00021A6DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6015BA54D00021A6DD /* main.m */; };
+		7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */; };
+		7A023B6815BA54D00021A6DD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6615BA54D00021A6DD /* MainStoryboard_iPhone.storyboard */; };
+		7A023B6B15BA54D00021A6DD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */; };
+		7A023B6E15BA54D00021A6DD /* OpenCVTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A023B5015BA54D00021A6DD /* OpenCVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A023B5415BA54D00021A6DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7A023B5615BA54D00021A6DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A023B5815BA54D00021A6DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A023B5C15BA54D00021A6DD /* OpenCVTest-Info.plist */ = {isa = PBXFileReference; path = "OpenCVTest-Info.plist"; sourceTree = "<group>"; };
+		7A023B5E15BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A023B6015BA54D00021A6DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A023B6215BA54D00021A6DD /* OpenCVTest-Prefix.pch */ = {isa = PBXFileReference; path = "OpenCVTest-Prefix.pch"; sourceTree = "<group>"; };
+		7A023B6315BA54D00021A6DD /* OpenCVTestAppDelegate.h */ = {isa = PBXFileReference; path = OpenCVTestAppDelegate.h; sourceTree = "<group>"; };
+		7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVTestAppDelegate.m; sourceTree = "<group>"; };
+		7A023B6715BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7A023B6A15BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7A023B6C15BA54D00021A6DD /* OpenCVTestViewController.h */ = {isa = PBXFileReference; path = OpenCVTestViewController.h; sourceTree = "<group>"; };
+		7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCVTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A023B4D15BA54D00021A6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A023B5515BA54D00021A6DD /* UIKit.framework in Frameworks */,
+				7A023B5715BA54D00021A6DD /* Foundation.framework in Frameworks */,
+				7A023B5915BA54D00021A6DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A023B4515BA54CF0021A6DD = {
+			isa = PBXGroup;
+			children = (
+				7A023B5A15BA54D00021A6DD /* OpenCVTest */,
+				7A023B5315BA54D00021A6DD /* Frameworks */,
+				7A023B5115BA54D00021A6DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A023B5115BA54D00021A6DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A023B5015BA54D00021A6DD /* OpenCVTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A023B5315BA54D00021A6DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A023B5415BA54D00021A6DD /* UIKit.framework */,
+				7A023B5615BA54D00021A6DD /* Foundation.framework */,
+				7A023B5815BA54D00021A6DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A023B5A15BA54D00021A6DD /* OpenCVTest */ = {
+			isa = PBXGroup;
+			children = (
+				7A023B6315BA54D00021A6DD /* OpenCVTestAppDelegate.h */,
+				7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */,
+				7A023B6615BA54D00021A6DD /* MainStoryboard_iPhone.storyboard */,
+				7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */,
+				7A023B6C15BA54D00021A6DD /* OpenCVTestViewController.h */,
+				7A023B6D15BA54D00021A6DD /* OpenCVTestViewController.m */,
+				7A023B5B15BA54D00021A6DD /* Supporting Files */,
+			);
+			path = OpenCVTest;
+			sourceTree = "<group>";
+		};
+		7A023B5B15BA54D00021A6DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A023B5C15BA54D00021A6DD /* OpenCVTest-Info.plist */,
+				7A023B5D15BA54D00021A6DD /* InfoPlist.strings */,
+				7A023B6015BA54D00021A6DD /* main.m */,
+				7A023B6215BA54D00021A6DD /* OpenCVTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A023B4F15BA54D00021A6DD /* OpenCVTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A023B7115BA54D00021A6DD /* Build configuration list for PBXNativeTarget "OpenCVTest" */;
+			buildPhases = (
+				7A023B4C15BA54D00021A6DD /* Sources */,
+				7A023B4D15BA54D00021A6DD /* Frameworks */,
+				7A023B4E15BA54D00021A6DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCVTest;
+			productName = OpenCVTest;
+			productReference = 7A023B5015BA54D00021A6DD /* OpenCVTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A023B4715BA54CF0021A6DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 7A023B4A15BA54CF0021A6DD /* Build configuration list for PBXProject "OpenCVTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A023B4515BA54CF0021A6DD;
+			productRefGroup = 7A023B5115BA54D00021A6DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A023B4F15BA54D00021A6DD /* OpenCVTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A023B4E15BA54D00021A6DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A023B5F15BA54D00021A6DD /* InfoPlist.strings in Resources */,
+				7A023B6815BA54D00021A6DD /* MainStoryboard_iPhone.storyboard in Resources */,
+				7A023B6B15BA54D00021A6DD /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A023B4C15BA54D00021A6DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A023B6115BA54D00021A6DD /* main.m in Sources */,
+				7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */,
+				7A023B6E15BA54D00021A6DD /* OpenCVTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A023B5D15BA54D00021A6DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A023B5E15BA54D00021A6DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7A023B6615BA54D00021A6DD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A023B6715BA54D00021A6DD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A023B6A15BA54D00021A6DD /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A023B6F15BA54D00021A6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A023B7015BA54D00021A6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A023B7215BA54D00021A6DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCVTest/OpenCVTest-Prefix.pch";
+				INFOPLIST_FILE = "OpenCVTest/OpenCVTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7A023B7315BA54D00021A6DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCVTest/OpenCVTest-Prefix.pch";
+				INFOPLIST_FILE = "OpenCVTest/OpenCVTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A023B4A15BA54CF0021A6DD /* Build configuration list for PBXProject "OpenCVTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A023B6F15BA54D00021A6DD /* Debug */,
+				7A023B7015BA54D00021A6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A023B7115BA54D00021A6DD /* Build configuration list for PBXNativeTarget "OpenCVTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A023B7215BA54D00021A6DD /* Debug */,
+				7A023B7315BA54D00021A6DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A023B4715BA54CF0021A6DD /* Project object */;
+}
