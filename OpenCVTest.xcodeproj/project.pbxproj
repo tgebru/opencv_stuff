@@ -15,12 +15,6 @@
 		7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */; };
 		7A023B6815BA54D00021A6DD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6615BA54D00021A6DD /* MainStoryboard_iPhone.storyboard */; };
 		7A023B6B15BA54D00021A6DD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */; };
-		7A023B8B15BA57ED0021A6DD /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8415BA57EC0021A6DD /* precomp.cpp */; };
-		7A023B8C15BA57ED0021A6DD /* ts_arrtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8615BA57EC0021A6DD /* ts_arrtest.cpp */; };
-		7A023B8D15BA57ED0021A6DD /* ts_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8715BA57ED0021A6DD /* ts_func.cpp */; };
-		7A023B8E15BA57ED0021A6DD /* ts_gtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8815BA57ED0021A6DD /* ts_gtest.cpp */; };
-		7A023B8F15BA57ED0021A6DD /* ts_perf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8915BA57ED0021A6DD /* ts_perf.cpp */; };
-		7A023B9015BA57ED0021A6DD /* ts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B8A15BA57ED0021A6DD /* ts.cpp */; };
 		C173294B15BB0AF100C367B9 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C173294A15BB0AF100C367B9 /* opencv2.framework */; };
 		C173294F15BB11BF00C367B9 /* OpenCVTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C173294D15BB11BF00C367B9 /* OpenCVTestViewController.mm */; };
 		C1C2EBEA15BDA3EC0069C734 /* acircles1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C2E7BC15BDA3EB0069C734 /* acircles1.jpg */; };
@@ -1019,26 +1013,32 @@
 		C1C2EFCB15BDA3EE0069C734 /* b_result.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C2EBE715BDA3EC0069C734 /* b_result.jpg */; };
 		C1C2EFCC15BDA3EE0069C734 /* b_result.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C2EBE815BDA3EC0069C734 /* b_result.png */; };
 		C1C2EFCD15BDA3EE0069C734 /* baboon_lena.png in Resources */ = {isa = PBXBuildFile; fileRef = C1C2EBE915BDA3EC0069C734 /* baboon_lena.png */; };
-		C1CB914D15BB3E1900D88FC6 /* test_affine3d_estimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913615BB3E1900D88FC6 /* test_affine3d_estimator.cpp */; };
-		C1CB914E15BB3E1900D88FC6 /* test_cameracalibration_artificial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913715BB3E1900D88FC6 /* test_cameracalibration_artificial.cpp */; };
-		C1CB914F15BB3E1900D88FC6 /* test_cameracalibration_badarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913815BB3E1900D88FC6 /* test_cameracalibration_badarg.cpp */; };
-		C1CB915015BB3E1900D88FC6 /* test_cameracalibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913915BB3E1900D88FC6 /* test_cameracalibration.cpp */; };
-		C1CB915115BB3E1900D88FC6 /* test_chessboardgenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913A15BB3E1900D88FC6 /* test_chessboardgenerator.cpp */; };
-		C1CB915215BB3E1900D88FC6 /* test_chesscorners_badarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913C15BB3E1900D88FC6 /* test_chesscorners_badarg.cpp */; };
-		C1CB915315BB3E1900D88FC6 /* test_chesscorners_timing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913D15BB3E1900D88FC6 /* test_chesscorners_timing.cpp */; };
-		C1CB915415BB3E1900D88FC6 /* test_chesscorners.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913E15BB3E1900D88FC6 /* test_chesscorners.cpp */; };
-		C1CB915515BB3E1900D88FC6 /* test_compose_rt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB913F15BB3E1900D88FC6 /* test_compose_rt.cpp */; };
-		C1CB915615BB3E1900D88FC6 /* test_cornerssubpix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914015BB3E1900D88FC6 /* test_cornerssubpix.cpp */; };
-		C1CB915715BB3E1900D88FC6 /* test_fundam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914115BB3E1900D88FC6 /* test_fundam.cpp */; };
-		C1CB915815BB3E1900D88FC6 /* test_homography.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914215BB3E1900D88FC6 /* test_homography.cpp */; };
-		C1CB915A15BB3E1900D88FC6 /* test_posit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914415BB3E1900D88FC6 /* test_posit.cpp */; };
-		C1CB915B15BB3E1900D88FC6 /* test_precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914515BB3E1900D88FC6 /* test_precomp.cpp */; };
-		C1CB915C15BB3E1900D88FC6 /* test_reproject_image_to_3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914715BB3E1900D88FC6 /* test_reproject_image_to_3d.cpp */; };
-		C1CB915D15BB3E1900D88FC6 /* test_solvepnp_ransac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914815BB3E1900D88FC6 /* test_solvepnp_ransac.cpp */; };
-		C1CB915E15BB3E1900D88FC6 /* test_stereomatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914915BB3E1900D88FC6 /* test_stereomatching.cpp */; };
-		C1CB915F15BB3E1900D88FC6 /* test_undistort_badarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914A15BB3E1900D88FC6 /* test_undistort_badarg.cpp */; };
-		C1CB916015BB3E1900D88FC6 /* test_undistort_points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914B15BB3E1900D88FC6 /* test_undistort_points.cpp */; };
-		C1CB916115BB3E1900D88FC6 /* test_undistort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1CB914C15BB3E1900D88FC6 /* test_undistort.cpp */; };
+		C1C2EFDC15BDD92A0069C734 /* precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFD215BDD92A0069C734 /* precomp.cpp */; };
+		C1C2EFDD15BDD92A0069C734 /* ts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFD415BDD92A0069C734 /* ts.cpp */; };
+		C1C2EFDE15BDD92A0069C734 /* ts_arrtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFD615BDD92A0069C734 /* ts_arrtest.cpp */; };
+		C1C2EFDF15BDD92A0069C734 /* ts_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFD715BDD92A0069C734 /* ts_func.cpp */; };
+		C1C2EFE015BDD92A0069C734 /* ts_gtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFD815BDD92A0069C734 /* ts_gtest.cpp */; };
+		C1C2EFE115BDD92A0069C734 /* ts_perf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFDA15BDD92A0069C734 /* ts_perf.cpp */; };
+		C1C2EFFA15BDDAB80069C734 /* test_affine3d_estimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFE415BDDAB80069C734 /* test_affine3d_estimator.cpp */; };
+		C1C2EFFB15BDDAB80069C734 /* test_cameracalibration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFE515BDDAB80069C734 /* test_cameracalibration.cpp */; };
+		C1C2EFFC15BDDAB80069C734 /* test_cameracalibration_artificial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFE615BDDAB80069C734 /* test_cameracalibration_artificial.cpp */; };
+		C1C2EFFD15BDDAB80069C734 /* test_cameracalibration_badarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFE715BDDAB80069C734 /* test_cameracalibration_badarg.cpp */; };
+		C1C2EFFE15BDDAB80069C734 /* test_chessboardgenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFE815BDDAB80069C734 /* test_chessboardgenerator.cpp */; };
+		C1C2EFFF15BDDAB80069C734 /* test_chesscorners.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFEA15BDDAB80069C734 /* test_chesscorners.cpp */; };
+		C1C2F00015BDDAB80069C734 /* test_chesscorners_badarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFEB15BDDAB80069C734 /* test_chesscorners_badarg.cpp */; };
+		C1C2F00115BDDAB80069C734 /* test_chesscorners_timing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFEC15BDDAB80069C734 /* test_chesscorners_timing.cpp */; };
+		C1C2F00215BDDAB80069C734 /* test_compose_rt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFED15BDDAB80069C734 /* test_compose_rt.cpp */; };
+		C1C2F00315BDDAB80069C734 /* test_cornerssubpix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFEE15BDDAB80069C734 /* test_cornerssubpix.cpp */; };
+		C1C2F00415BDDAB80069C734 /* test_fundam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFEF15BDDAB80069C734 /* test_fundam.cpp */; };
+		C1C2F00515BDDAB80069C734 /* test_homography.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF015BDDAB80069C734 /* test_homography.cpp */; };
+		C1C2F00615BDDAB80069C734 /* test_posit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF115BDDAB80069C734 /* test_posit.cpp */; };
+		C1C2F00715BDDAB80069C734 /* test_precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF215BDDAB80069C734 /* test_precomp.cpp */; };
+		C1C2F00815BDDAB80069C734 /* test_reproject_image_to_3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF415BDDAB80069C734 /* test_reproject_image_to_3d.cpp */; };
+		C1C2F00915BDDAB80069C734 /* test_solvepnp_ransac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF515BDDAB80069C734 /* test_solvepnp_ransac.cpp */; };
+		C1C2F00A15BDDAB80069C734 /* test_stereomatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF615BDDAB80069C734 /* test_stereomatching.cpp */; };
+		C1C2F00B15BDDAB80069C734 /* test_undistort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF715BDDAB80069C734 /* test_undistort.cpp */; };
+		C1C2F00C15BDDAB80069C734 /* test_undistort_badarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF815BDDAB80069C734 /* test_undistort_badarg.cpp */; };
+		C1C2F00D15BDDAB80069C734 /* test_undistort_points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1C2EFF915BDDAB80069C734 /* test_undistort_points.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1054,16 +1054,6 @@
 		7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = OpenCVTestAppDelegate.m; sourceTree = "<group>"; };
 		7A023B6715BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		7A023B6A15BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		7A023B8115BA577E0021A6DD /* ts_gtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ts_gtest.h; path = ../ts_gtest.h; sourceTree = "<group>"; };
-		7A023B8215BA577F0021A6DD /* ts_perf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ts_perf.hpp; path = ../ts_perf.hpp; sourceTree = "<group>"; };
-		7A023B8315BA577F0021A6DD /* ts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ts.hpp; path = ../ts.hpp; sourceTree = "<group>"; };
-		7A023B8415BA57EC0021A6DD /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = precomp.cpp; path = ../precomp.cpp; sourceTree = "<group>"; };
-		7A023B8515BA57EC0021A6DD /* precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = precomp.hpp; path = ../precomp.hpp; sourceTree = "<group>"; };
-		7A023B8615BA57EC0021A6DD /* ts_arrtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ts_arrtest.cpp; path = ../ts_arrtest.cpp; sourceTree = "<group>"; };
-		7A023B8715BA57ED0021A6DD /* ts_func.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ts_func.cpp; path = ../ts_func.cpp; sourceTree = "<group>"; };
-		7A023B8815BA57ED0021A6DD /* ts_gtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ts_gtest.cpp; path = ../ts_gtest.cpp; sourceTree = "<group>"; };
-		7A023B8915BA57ED0021A6DD /* ts_perf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ts_perf.cpp; path = ../ts_perf.cpp; sourceTree = "<group>"; };
-		7A023B8A15BA57ED0021A6DD /* ts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ts.cpp; path = ../ts.cpp; sourceTree = "<group>"; };
 		C173294A15BB0AF100C367B9 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../opencv/opencv2.framework; sourceTree = "<group>"; };
 		C173294C15BB11BF00C367B9 /* OpenCVTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVTestViewController.h; sourceTree = "<group>"; };
 		C173294D15BB11BF00C367B9 /* OpenCVTestViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = OpenCVTestViewController.mm; sourceTree = "<group>"; };
@@ -2063,28 +2053,38 @@
 		C1C2EBE715BDA3EC0069C734 /* b_result.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = b_result.jpg; sourceTree = "<group>"; };
 		C1C2EBE815BDA3EC0069C734 /* b_result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b_result.png; sourceTree = "<group>"; };
 		C1C2EBE915BDA3EC0069C734 /* baboon_lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baboon_lena.png; sourceTree = "<group>"; };
-		C1CB913615BB3E1900D88FC6 /* test_affine3d_estimator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_affine3d_estimator.cpp; sourceTree = "<group>"; };
-		C1CB913715BB3E1900D88FC6 /* test_cameracalibration_artificial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_cameracalibration_artificial.cpp; sourceTree = "<group>"; };
-		C1CB913815BB3E1900D88FC6 /* test_cameracalibration_badarg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_cameracalibration_badarg.cpp; sourceTree = "<group>"; };
-		C1CB913915BB3E1900D88FC6 /* test_cameracalibration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_cameracalibration.cpp; sourceTree = "<group>"; };
-		C1CB913A15BB3E1900D88FC6 /* test_chessboardgenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_chessboardgenerator.cpp; sourceTree = "<group>"; };
-		C1CB913B15BB3E1900D88FC6 /* test_chessboardgenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_chessboardgenerator.hpp; sourceTree = "<group>"; };
-		C1CB913C15BB3E1900D88FC6 /* test_chesscorners_badarg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_chesscorners_badarg.cpp; sourceTree = "<group>"; };
-		C1CB913D15BB3E1900D88FC6 /* test_chesscorners_timing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_chesscorners_timing.cpp; sourceTree = "<group>"; };
-		C1CB913E15BB3E1900D88FC6 /* test_chesscorners.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_chesscorners.cpp; sourceTree = "<group>"; };
-		C1CB913F15BB3E1900D88FC6 /* test_compose_rt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_compose_rt.cpp; sourceTree = "<group>"; };
-		C1CB914015BB3E1900D88FC6 /* test_cornerssubpix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_cornerssubpix.cpp; sourceTree = "<group>"; };
-		C1CB914115BB3E1900D88FC6 /* test_fundam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_fundam.cpp; sourceTree = "<group>"; };
-		C1CB914215BB3E1900D88FC6 /* test_homography.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_homography.cpp; sourceTree = "<group>"; };
-		C1CB914415BB3E1900D88FC6 /* test_posit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_posit.cpp; sourceTree = "<group>"; };
-		C1CB914515BB3E1900D88FC6 /* test_precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_precomp.cpp; sourceTree = "<group>"; };
-		C1CB914615BB3E1900D88FC6 /* test_precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_precomp.hpp; sourceTree = "<group>"; };
-		C1CB914715BB3E1900D88FC6 /* test_reproject_image_to_3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_reproject_image_to_3d.cpp; sourceTree = "<group>"; };
-		C1CB914815BB3E1900D88FC6 /* test_solvepnp_ransac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_solvepnp_ransac.cpp; sourceTree = "<group>"; };
-		C1CB914915BB3E1900D88FC6 /* test_stereomatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_stereomatching.cpp; sourceTree = "<group>"; };
-		C1CB914A15BB3E1900D88FC6 /* test_undistort_badarg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort_badarg.cpp; sourceTree = "<group>"; };
-		C1CB914B15BB3E1900D88FC6 /* test_undistort_points.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort_points.cpp; sourceTree = "<group>"; };
-		C1CB914C15BB3E1900D88FC6 /* test_undistort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort.cpp; sourceTree = "<group>"; };
+		C1C2EFD215BDD92A0069C734 /* precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = precomp.cpp; sourceTree = "<group>"; };
+		C1C2EFD315BDD92A0069C734 /* precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = precomp.hpp; sourceTree = "<group>"; };
+		C1C2EFD415BDD92A0069C734 /* ts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts.cpp; sourceTree = "<group>"; };
+		C1C2EFD515BDD92A0069C734 /* ts.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ts.hpp; sourceTree = "<group>"; };
+		C1C2EFD615BDD92A0069C734 /* ts_arrtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_arrtest.cpp; sourceTree = "<group>"; };
+		C1C2EFD715BDD92A0069C734 /* ts_func.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_func.cpp; sourceTree = "<group>"; };
+		C1C2EFD815BDD92A0069C734 /* ts_gtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_gtest.cpp; sourceTree = "<group>"; };
+		C1C2EFD915BDD92A0069C734 /* ts_gtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts_gtest.h; sourceTree = "<group>"; };
+		C1C2EFDA15BDD92A0069C734 /* ts_perf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ts_perf.cpp; sourceTree = "<group>"; };
+		C1C2EFDB15BDD92A0069C734 /* ts_perf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ts_perf.hpp; sourceTree = "<group>"; };
+		C1C2EFE415BDDAB80069C734 /* test_affine3d_estimator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_affine3d_estimator.cpp; sourceTree = "<group>"; };
+		C1C2EFE515BDDAB80069C734 /* test_cameracalibration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_cameracalibration.cpp; sourceTree = "<group>"; };
+		C1C2EFE615BDDAB80069C734 /* test_cameracalibration_artificial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_cameracalibration_artificial.cpp; sourceTree = "<group>"; };
+		C1C2EFE715BDDAB80069C734 /* test_cameracalibration_badarg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_cameracalibration_badarg.cpp; sourceTree = "<group>"; };
+		C1C2EFE815BDDAB80069C734 /* test_chessboardgenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_chessboardgenerator.cpp; sourceTree = "<group>"; };
+		C1C2EFE915BDDAB80069C734 /* test_chessboardgenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_chessboardgenerator.hpp; sourceTree = "<group>"; };
+		C1C2EFEA15BDDAB80069C734 /* test_chesscorners.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_chesscorners.cpp; sourceTree = "<group>"; };
+		C1C2EFEB15BDDAB80069C734 /* test_chesscorners_badarg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_chesscorners_badarg.cpp; sourceTree = "<group>"; };
+		C1C2EFEC15BDDAB80069C734 /* test_chesscorners_timing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_chesscorners_timing.cpp; sourceTree = "<group>"; };
+		C1C2EFED15BDDAB80069C734 /* test_compose_rt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_compose_rt.cpp; sourceTree = "<group>"; };
+		C1C2EFEE15BDDAB80069C734 /* test_cornerssubpix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_cornerssubpix.cpp; sourceTree = "<group>"; };
+		C1C2EFEF15BDDAB80069C734 /* test_fundam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_fundam.cpp; sourceTree = "<group>"; };
+		C1C2EFF015BDDAB80069C734 /* test_homography.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_homography.cpp; sourceTree = "<group>"; };
+		C1C2EFF115BDDAB80069C734 /* test_posit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_posit.cpp; sourceTree = "<group>"; };
+		C1C2EFF215BDDAB80069C734 /* test_precomp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_precomp.cpp; sourceTree = "<group>"; };
+		C1C2EFF315BDDAB80069C734 /* test_precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_precomp.hpp; sourceTree = "<group>"; };
+		C1C2EFF415BDDAB80069C734 /* test_reproject_image_to_3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_reproject_image_to_3d.cpp; sourceTree = "<group>"; };
+		C1C2EFF515BDDAB80069C734 /* test_solvepnp_ransac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_solvepnp_ransac.cpp; sourceTree = "<group>"; };
+		C1C2EFF615BDDAB80069C734 /* test_stereomatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_stereomatching.cpp; sourceTree = "<group>"; };
+		C1C2EFF715BDDAB80069C734 /* test_undistort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort.cpp; sourceTree = "<group>"; };
+		C1C2EFF815BDDAB80069C734 /* test_undistort_badarg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort_badarg.cpp; sourceTree = "<group>"; };
+		C1C2EFF915BDDAB80069C734 /* test_undistort_points.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort_points.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2106,9 +2106,9 @@
 			isa = PBXGroup;
 			children = (
 				7A023B5A15BA54D00021A6DD /* OpenCVTest */,
-				C1C2EFCF15BDD3910069C734 /* ts */,
+				C1C2EFD115BDD9290069C734 /* ts */,
+				C1C2EFE215BDDAB80069C734 /* moduletests */,
 				C1C2E7B815BDA3EB0069C734 /* testdata */,
-				C1CB910515BB3C7800D88FC6 /* calib3d */,
 				7A023B5315BA54D00021A6DD /* Frameworks */,
 				7A023B5115BA54D00021A6DD /* Products */,
 			);
@@ -3777,51 +3777,58 @@
 			path = stitching;
 			sourceTree = "<group>";
 		};
-		C1C2EFCF15BDD3910069C734 /* ts */ = {
+		C1C2EFD115BDD9290069C734 /* ts */ = {
 			isa = PBXGroup;
 			children = (
-				7A023B8415BA57EC0021A6DD /* precomp.cpp */,
-				7A023B8515BA57EC0021A6DD /* precomp.hpp */,
-				7A023B8615BA57EC0021A6DD /* ts_arrtest.cpp */,
-				7A023B8715BA57ED0021A6DD /* ts_func.cpp */,
-				7A023B8815BA57ED0021A6DD /* ts_gtest.cpp */,
-				7A023B8915BA57ED0021A6DD /* ts_perf.cpp */,
-				7A023B8A15BA57ED0021A6DD /* ts.cpp */,
-				7A023B8115BA577E0021A6DD /* ts_gtest.h */,
-				7A023B8215BA577F0021A6DD /* ts_perf.hpp */,
-				7A023B8315BA577F0021A6DD /* ts.hpp */,
+				C1C2EFD215BDD92A0069C734 /* precomp.cpp */,
+				C1C2EFD315BDD92A0069C734 /* precomp.hpp */,
+				C1C2EFD415BDD92A0069C734 /* ts.cpp */,
+				C1C2EFD515BDD92A0069C734 /* ts.hpp */,
+				C1C2EFD615BDD92A0069C734 /* ts_arrtest.cpp */,
+				C1C2EFD715BDD92A0069C734 /* ts_func.cpp */,
+				C1C2EFD815BDD92A0069C734 /* ts_gtest.cpp */,
+				C1C2EFD915BDD92A0069C734 /* ts_gtest.h */,
+				C1C2EFDA15BDD92A0069C734 /* ts_perf.cpp */,
+				C1C2EFDB15BDD92A0069C734 /* ts_perf.hpp */,
 			);
-			name = ts;
-			path = testdata;
+			path = ts;
 			sourceTree = "<group>";
 		};
-		C1CB910515BB3C7800D88FC6 /* calib3d */ = {
+		C1C2EFE215BDDAB80069C734 /* moduletests */ = {
 			isa = PBXGroup;
 			children = (
-				C1CB913615BB3E1900D88FC6 /* test_affine3d_estimator.cpp */,
-				C1CB913715BB3E1900D88FC6 /* test_cameracalibration_artificial.cpp */,
-				C1CB913815BB3E1900D88FC6 /* test_cameracalibration_badarg.cpp */,
-				C1CB913915BB3E1900D88FC6 /* test_cameracalibration.cpp */,
-				C1CB913A15BB3E1900D88FC6 /* test_chessboardgenerator.cpp */,
-				C1CB913B15BB3E1900D88FC6 /* test_chessboardgenerator.hpp */,
-				C1CB913C15BB3E1900D88FC6 /* test_chesscorners_badarg.cpp */,
-				C1CB913D15BB3E1900D88FC6 /* test_chesscorners_timing.cpp */,
-				C1CB913E15BB3E1900D88FC6 /* test_chesscorners.cpp */,
-				C1CB913F15BB3E1900D88FC6 /* test_compose_rt.cpp */,
-				C1CB914015BB3E1900D88FC6 /* test_cornerssubpix.cpp */,
-				C1CB914115BB3E1900D88FC6 /* test_fundam.cpp */,
-				C1CB914215BB3E1900D88FC6 /* test_homography.cpp */,
-				C1CB914415BB3E1900D88FC6 /* test_posit.cpp */,
-				C1CB914515BB3E1900D88FC6 /* test_precomp.cpp */,
-				C1CB914615BB3E1900D88FC6 /* test_precomp.hpp */,
-				C1CB914715BB3E1900D88FC6 /* test_reproject_image_to_3d.cpp */,
-				C1CB914815BB3E1900D88FC6 /* test_solvepnp_ransac.cpp */,
-				C1CB914915BB3E1900D88FC6 /* test_stereomatching.cpp */,
-				C1CB914A15BB3E1900D88FC6 /* test_undistort_badarg.cpp */,
-				C1CB914B15BB3E1900D88FC6 /* test_undistort_points.cpp */,
-				C1CB914C15BB3E1900D88FC6 /* test_undistort.cpp */,
+				C1C2EFE315BDDAB80069C734 /* calib3d */,
 			);
-			name = calib3d;
+			path = moduletests;
+			sourceTree = "<group>";
+		};
+		C1C2EFE315BDDAB80069C734 /* calib3d */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2EFE415BDDAB80069C734 /* test_affine3d_estimator.cpp */,
+				C1C2EFE515BDDAB80069C734 /* test_cameracalibration.cpp */,
+				C1C2EFE615BDDAB80069C734 /* test_cameracalibration_artificial.cpp */,
+				C1C2EFE715BDDAB80069C734 /* test_cameracalibration_badarg.cpp */,
+				C1C2EFE815BDDAB80069C734 /* test_chessboardgenerator.cpp */,
+				C1C2EFE915BDDAB80069C734 /* test_chessboardgenerator.hpp */,
+				C1C2EFEA15BDDAB80069C734 /* test_chesscorners.cpp */,
+				C1C2EFEB15BDDAB80069C734 /* test_chesscorners_badarg.cpp */,
+				C1C2EFEC15BDDAB80069C734 /* test_chesscorners_timing.cpp */,
+				C1C2EFED15BDDAB80069C734 /* test_compose_rt.cpp */,
+				C1C2EFEE15BDDAB80069C734 /* test_cornerssubpix.cpp */,
+				C1C2EFEF15BDDAB80069C734 /* test_fundam.cpp */,
+				C1C2EFF015BDDAB80069C734 /* test_homography.cpp */,
+				C1C2EFF115BDDAB80069C734 /* test_posit.cpp */,
+				C1C2EFF215BDDAB80069C734 /* test_precomp.cpp */,
+				C1C2EFF315BDDAB80069C734 /* test_precomp.hpp */,
+				C1C2EFF415BDDAB80069C734 /* test_reproject_image_to_3d.cpp */,
+				C1C2EFF515BDDAB80069C734 /* test_solvepnp_ransac.cpp */,
+				C1C2EFF615BDDAB80069C734 /* test_stereomatching.cpp */,
+				C1C2EFF715BDDAB80069C734 /* test_undistort.cpp */,
+				C1C2EFF815BDDAB80069C734 /* test_undistort_badarg.cpp */,
+				C1C2EFF915BDDAB80069C734 /* test_undistort_points.cpp */,
+			);
+			path = calib3d;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4883,35 +4890,35 @@
 			files = (
 				7A023B6115BA54D00021A6DD /* main.m in Sources */,
 				7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */,
-				7A023B8B15BA57ED0021A6DD /* precomp.cpp in Sources */,
-				7A023B8C15BA57ED0021A6DD /* ts_arrtest.cpp in Sources */,
-				7A023B8D15BA57ED0021A6DD /* ts_func.cpp in Sources */,
-				7A023B8E15BA57ED0021A6DD /* ts_gtest.cpp in Sources */,
-				7A023B8F15BA57ED0021A6DD /* ts_perf.cpp in Sources */,
-				7A023B9015BA57ED0021A6DD /* ts.cpp in Sources */,
 				C173294F15BB11BF00C367B9 /* OpenCVTestViewController.mm in Sources */,
-				C1CB914D15BB3E1900D88FC6 /* test_affine3d_estimator.cpp in Sources */,
-				C1CB914E15BB3E1900D88FC6 /* test_cameracalibration_artificial.cpp in Sources */,
-				C1CB914F15BB3E1900D88FC6 /* test_cameracalibration_badarg.cpp in Sources */,
-				C1CB915015BB3E1900D88FC6 /* test_cameracalibration.cpp in Sources */,
-				C1CB915115BB3E1900D88FC6 /* test_chessboardgenerator.cpp in Sources */,
-				C1CB915215BB3E1900D88FC6 /* test_chesscorners_badarg.cpp in Sources */,
-				C1CB915315BB3E1900D88FC6 /* test_chesscorners_timing.cpp in Sources */,
-				C1CB915415BB3E1900D88FC6 /* test_chesscorners.cpp in Sources */,
-				C1CB915515BB3E1900D88FC6 /* test_compose_rt.cpp in Sources */,
-				C1CB915615BB3E1900D88FC6 /* test_cornerssubpix.cpp in Sources */,
-				C1CB915715BB3E1900D88FC6 /* test_fundam.cpp in Sources */,
-				C1CB915815BB3E1900D88FC6 /* test_homography.cpp in Sources */,
-				C1CB915A15BB3E1900D88FC6 /* test_posit.cpp in Sources */,
-				C1CB915B15BB3E1900D88FC6 /* test_precomp.cpp in Sources */,
-				C1CB915C15BB3E1900D88FC6 /* test_reproject_image_to_3d.cpp in Sources */,
-				C1CB915D15BB3E1900D88FC6 /* test_solvepnp_ransac.cpp in Sources */,
-				C1CB915E15BB3E1900D88FC6 /* test_stereomatching.cpp in Sources */,
-				C1CB915F15BB3E1900D88FC6 /* test_undistort_badarg.cpp in Sources */,
-				C1CB916015BB3E1900D88FC6 /* test_undistort_points.cpp in Sources */,
-				C1CB916115BB3E1900D88FC6 /* test_undistort.cpp in Sources */,
 				C1C2ECEE15BDA3ED0069C734 /* createPlots.p in Sources */,
 				C1C2EE0415BDA3ED0069C734 /* mat2xml.m in Sources */,
+				C1C2EFDC15BDD92A0069C734 /* precomp.cpp in Sources */,
+				C1C2EFDD15BDD92A0069C734 /* ts.cpp in Sources */,
+				C1C2EFDE15BDD92A0069C734 /* ts_arrtest.cpp in Sources */,
+				C1C2EFDF15BDD92A0069C734 /* ts_func.cpp in Sources */,
+				C1C2EFE015BDD92A0069C734 /* ts_gtest.cpp in Sources */,
+				C1C2EFE115BDD92A0069C734 /* ts_perf.cpp in Sources */,
+				C1C2EFFA15BDDAB80069C734 /* test_affine3d_estimator.cpp in Sources */,
+				C1C2EFFB15BDDAB80069C734 /* test_cameracalibration.cpp in Sources */,
+				C1C2EFFC15BDDAB80069C734 /* test_cameracalibration_artificial.cpp in Sources */,
+				C1C2EFFD15BDDAB80069C734 /* test_cameracalibration_badarg.cpp in Sources */,
+				C1C2EFFE15BDDAB80069C734 /* test_chessboardgenerator.cpp in Sources */,
+				C1C2EFFF15BDDAB80069C734 /* test_chesscorners.cpp in Sources */,
+				C1C2F00015BDDAB80069C734 /* test_chesscorners_badarg.cpp in Sources */,
+				C1C2F00115BDDAB80069C734 /* test_chesscorners_timing.cpp in Sources */,
+				C1C2F00215BDDAB80069C734 /* test_compose_rt.cpp in Sources */,
+				C1C2F00315BDDAB80069C734 /* test_cornerssubpix.cpp in Sources */,
+				C1C2F00415BDDAB80069C734 /* test_fundam.cpp in Sources */,
+				C1C2F00515BDDAB80069C734 /* test_homography.cpp in Sources */,
+				C1C2F00615BDDAB80069C734 /* test_posit.cpp in Sources */,
+				C1C2F00715BDDAB80069C734 /* test_precomp.cpp in Sources */,
+				C1C2F00815BDDAB80069C734 /* test_reproject_image_to_3d.cpp in Sources */,
+				C1C2F00915BDDAB80069C734 /* test_solvepnp_ransac.cpp in Sources */,
+				C1C2F00A15BDDAB80069C734 /* test_stereomatching.cpp in Sources */,
+				C1C2F00B15BDDAB80069C734 /* test_undistort.cpp in Sources */,
+				C1C2F00C15BDDAB80069C734 /* test_undistort_badarg.cpp in Sources */,
+				C1C2F00D15BDDAB80069C734 /* test_undistort_points.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
