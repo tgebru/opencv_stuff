@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets
+END
+SURF_trees.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets/SURF_trees.xml.gz
+END
+SURF_boat.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets/SURF_boat.xml.gz
+END
+SURF_ubc.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets/SURF_ubc.xml.gz
+END
+SURF_bikes.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets/SURF_bikes.xml.gz
+END
+SURF_leuven.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets/SURF_leuven.xml.gz
+END
+SURF_bark.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets/SURF_bark.xml.gz
+END
+SURF_graf.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets/SURF_graf.xml.gz
+END
+SURF_wall.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/opencv/!svn/ver/3702/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/keypoints_datasets/SURF_wall.xml.gz
+END

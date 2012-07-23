@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/opencv/!svn/ver/9052/trunk/opencv_extra/testdata/cv/features2d
+END
+tsukuba.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/opencv/!svn/ver/3633/trunk/opencv_extra/testdata/cv/features2d/tsukuba.png
+END
+calonder_classifier.rtc
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/opencv/!svn/ver/3633/trunk/opencv_extra/testdata/cv/features2d/calonder_classifier.rtc
+END
+keypoints.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/3636/trunk/opencv_extra/testdata/cv/features2d/keypoints.xml.gz
+END

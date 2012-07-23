@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/opencv/!svn/ver/9052/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors
+END
+descriptor-opponent-sift
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/opencv/!svn/ver/9052/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-opponent-sift
+END
+descriptor-sift
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/opencv/!svn/ver/9052/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-sift
+END
+descriptor-brief
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/4977/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-brief
+END
+descriptor-calonder-uchar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/opencv/!svn/ver/4045/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-calonder-uchar
+END
+descriptor-opponent-brief
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/opencv/!svn/ver/8928/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-opponent-brief
+END
+descriptor-freak
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/8824/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-freak
+END
+descriptor-calonder-float
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/opencv/!svn/ver/4045/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-calonder-float
+END
+descriptor-opponent-surf
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/opencv/!svn/ver/9052/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-opponent-surf
+END
+descriptor-surf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/opencv/!svn/ver/9052/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-surf
+END
+descriptor-orb
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/opencv/!svn/ver/7574/trunk/opencv_extra/testdata/cv/features2d/descriptor_extractors/descriptor-orb
+END

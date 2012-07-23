@@ -1,0 +1,863 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots
+END
+GFTT_wall_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_wall_correspondenceCount.csv
+END
+HARRIS_wall_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_wall_repeatability.csv
+END
+HARRIS_trees_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_trees_correspondenceCount.csv
+END
+MSER_bikes_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_bikes_repeatability.csv
+END
+SURF_boat_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_boat_repeatability.csv
+END
+SIFT_wall_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_wall_repeatability.csv
+END
+MSER_wall_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_wall_repeatability.csv
+END
+STAR_bikes_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_bikes_repeatability.csv
+END
+FAST_boat_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_boat_correspondenceCount.csv
+END
+FAST_average_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_average_repeatability.csv
+END
+HARRIS_bikes_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_bikes_correspondenceCount.csv
+END
+MSER_boat_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_boat_correspondenceCount.csv
+END
+SIFT_trees_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_trees_repeatability.csv
+END
+SURF_boat_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_boat_correspondenceCount.csv
+END
+SIFT_wall_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_wall_correspondenceCount.csv
+END
+HARRIS_bark_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_bark_correspondenceCount.csv
+END
+HARRIS_graf_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_graf_correspondenceCount.csv
+END
+createPlots.p
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/createPlots.p
+END
+SURF_graf_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_graf_repeatability.csv
+END
+SURF_bark_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_bark_repeatability.csv
+END
+boat_repeatability.png
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/boat_repeatability.png
+END
+SURF_leuven_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_leuven_correspondenceCount.csv
+END
+GFTT_ubc_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_ubc_correspondenceCount.csv
+END
+HARRIS_ubc_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_ubc_repeatability.csv
+END
+SIFT_ubc_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_ubc_correspondenceCount.csv
+END
+GFTT_average_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_average_correspondenceCount.csv
+END
+FAST_trees_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_trees_correspondenceCount.csv
+END
+STAR_leuven_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_leuven_repeatability.csv
+END
+GFTT_trees_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_trees_correspondenceCount.csv
+END
+SURF_average_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_average_correspondenceCount.csv
+END
+GFTT_boat_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_boat_correspondenceCount.csv
+END
+FAST_bikes_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_bikes_correspondenceCount.csv
+END
+GFTT_bikes_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_bikes_correspondenceCount.csv
+END
+HARRIS_bikes_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_bikes_repeatability.csv
+END
+HARRIS_leuven_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_leuven_repeatability.csv
+END
+bark_repeatability.png
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/bark_repeatability.png
+END
+MSER_trees_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_trees_repeatability.csv
+END
+graf_repeatability.png
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/graf_repeatability.png
+END
+STAR_trees_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_trees_repeatability.csv
+END
+FAST_leuven_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_leuven_repeatability.csv
+END
+leuven_correspondenceCount.png
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/leuven_correspondenceCount.png
+END
+STAR_ubc_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_ubc_correspondenceCount.csv
+END
+FAST_ubc_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_ubc_repeatability.csv
+END
+HARRIS_wall_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_wall_correspondenceCount.csv
+END
+MSER_trees_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_trees_correspondenceCount.csv
+END
+SURF_leuven_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_leuven_repeatability.csv
+END
+GFTT_ubc_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_ubc_repeatability.csv
+END
+SURF_wall_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_wall_repeatability.csv
+END
+SIFT_boat_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_boat_correspondenceCount.csv
+END
+SIFT_average_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_average_repeatability.csv
+END
+MSER_bikes_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_bikes_correspondenceCount.csv
+END
+SURF_average_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_average_repeatability.csv
+END
+GFTT_boat_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_boat_repeatability.csv
+END
+FAST_average_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_average_correspondenceCount.csv
+END
+STAR_boat_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_boat_repeatability.csv
+END
+GFTT_bikes_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_bikes_repeatability.csv
+END
+HARRIS_average_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_average_repeatability.csv
+END
+ubc_correspondenceCount.png
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/ubc_correspondenceCount.png
+END
+wall_repeatability.png
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/wall_repeatability.png
+END
+HARRIS_trees_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_trees_repeatability.csv
+END
+SIFT_trees_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_trees_correspondenceCount.csv
+END
+SURF_bikes_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_bikes_repeatability.csv
+END
+MSER_ubc_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_ubc_repeatability.csv
+END
+trees_correspondenceCount.png
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/trees_correspondenceCount.png
+END
+FAST_boat_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_boat_repeatability.csv
+END
+STAR_average_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_average_repeatability.csv
+END
+GFTT_graf_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_graf_repeatability.csv
+END
+GFTT_bark_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_bark_repeatability.csv
+END
+SURF_trees_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_trees_correspondenceCount.csv
+END
+SIFT_bikes_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_bikes_correspondenceCount.csv
+END
+GFTT_leuven_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_leuven_correspondenceCount.csv
+END
+STAR_graf_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_graf_repeatability.csv
+END
+STAR_bark_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_bark_repeatability.csv
+END
+bikes_correspondenceCount.png
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/bikes_correspondenceCount.png
+END
+STAR_leuven_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_leuven_correspondenceCount.csv
+END
+SURF_bikes_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_bikes_correspondenceCount.csv
+END
+HARRIS_boat_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_boat_correspondenceCount.csv
+END
+SIFT_leuven_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_leuven_repeatability.csv
+END
+bark_correspondenceCount.png
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/bark_correspondenceCount.png
+END
+STAR_graf_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_graf_correspondenceCount.csv
+END
+STAR_bark_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_bark_correspondenceCount.csv
+END
+FAST_bark_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_bark_repeatability.csv
+END
+FAST_graf_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_graf_repeatability.csv
+END
+graf_correspondenceCount.png
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/graf_correspondenceCount.png
+END
+SIFT_ubc_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_ubc_repeatability.csv
+END
+GFTT_average_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_average_repeatability.csv
+END
+STAR_trees_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_trees_correspondenceCount.csv
+END
+FAST_leuven_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_leuven_correspondenceCount.csv
+END
+ubc_repeatability.png
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/ubc_repeatability.png
+END
+GFTT_trees_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_trees_repeatability.csv
+END
+SURF_ubc_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_ubc_repeatability.csv
+END
+STAR_bikes_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_bikes_correspondenceCount.csv
+END
+FAST_bikes_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_bikes_repeatability.csv
+END
+FAST_bark_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_bark_correspondenceCount.csv
+END
+FAST_graf_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_graf_correspondenceCount.csv
+END
+SURF_trees_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_trees_repeatability.csv
+END
+SIFT_average_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_average_correspondenceCount.csv
+END
+GFTT_wall_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_wall_repeatability.csv
+END
+bikes_repeatability.png
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/bikes_repeatability.png
+END
+leuven_repeatability.png
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/leuven_repeatability.png
+END
+STAR_wall_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_wall_repeatability.csv
+END
+MSER_bark_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_bark_correspondenceCount.csv
+END
+MSER_graf_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_graf_correspondenceCount.csv
+END
+SURF_ubc_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_ubc_correspondenceCount.csv
+END
+HARRIS_boat_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_boat_repeatability.csv
+END
+MSER_average_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_average_repeatability.csv
+END
+SURF_graf_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_graf_correspondenceCount.csv
+END
+SURF_bark_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_bark_correspondenceCount.csv
+END
+STAR_ubc_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_ubc_repeatability.csv
+END
+SIFT_boat_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_boat_repeatability.csv
+END
+MSER_boat_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_boat_repeatability.csv
+END
+STAR_wall_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_wall_correspondenceCount.csv
+END
+FAST_wall_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_wall_repeatability.csv
+END
+wall_correspondenceCount.png
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/wall_correspondenceCount.png
+END
+MSER_ubc_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_ubc_correspondenceCount.csv
+END
+MSER_leuven_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_leuven_repeatability.csv
+END
+MSER_average_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_average_correspondenceCount.csv
+END
+STAR_average_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_average_correspondenceCount.csv
+END
+GFTT_graf_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_graf_correspondenceCount.csv
+END
+GFTT_bark_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_bark_correspondenceCount.csv
+END
+HARRIS_bark_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_bark_repeatability.csv
+END
+HARRIS_graf_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_graf_repeatability.csv
+END
+HARRIS_leuven_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_leuven_correspondenceCount.csv
+END
+FAST_trees_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_trees_repeatability.csv
+END
+FAST_wall_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_wall_correspondenceCount.csv
+END
+SIFT_graf_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_graf_repeatability.csv
+END
+SIFT_bark_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_bark_repeatability.csv
+END
+MSER_bark_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_bark_repeatability.csv
+END
+MSER_graf_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_graf_repeatability.csv
+END
+SIFT_leuven_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_leuven_correspondenceCount.csv
+END
+MSER_leuven_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_leuven_correspondenceCount.csv
+END
+MSER_wall_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/MSER_wall_correspondenceCount.csv
+END
+FAST_ubc_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/FAST_ubc_correspondenceCount.csv
+END
+trees_repeatability.png
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/trees_repeatability.png
+END
+SURF_wall_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SURF_wall_correspondenceCount.csv
+END
+SIFT_bikes_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_bikes_repeatability.csv
+END
+GFTT_leuven_repeatability.csv
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/GFTT_leuven_repeatability.csv
+END
+SIFT_graf_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_graf_correspondenceCount.csv
+END
+SIFT_bark_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/SIFT_bark_correspondenceCount.csv
+END
+STAR_boat_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/STAR_boat_correspondenceCount.csv
+END
+boat_correspondenceCount.png
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/boat_correspondenceCount.png
+END
+HARRIS_ubc_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_ubc_correspondenceCount.csv
+END
+HARRIS_average_correspondenceCount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/opencv/!svn/ver/3705/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/detectors/plots/HARRIS_average_correspondenceCount.csv
+END

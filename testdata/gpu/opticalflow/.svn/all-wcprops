@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/opencv/!svn/ver/7659/trunk/opencv_extra/testdata/gpu/opticalflow
+END
+brox_optical_flow.bin
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/opencv/!svn/ver/7659/trunk/opencv_extra/testdata/gpu/opticalflow/brox_optical_flow.bin
+END
+rubberwhale1.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/opencv/!svn/ver/7322/trunk/opencv_extra/testdata/gpu/opticalflow/rubberwhale1.png
+END
+rubberwhale2.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/opencv/!svn/ver/7322/trunk/opencv_extra/testdata/gpu/opticalflow/rubberwhale2.png
+END
+brox_optical_flow_cc20.bin
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/7659/trunk/opencv_extra/testdata/gpu/opticalflow/brox_optical_flow_cc20.bin
+END
+frame0.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/7290/trunk/opencv_extra/testdata/gpu/opticalflow/frame0.png
+END
+frame1.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/7290/trunk/opencv_extra/testdata/gpu/opticalflow/frame1.png
+END

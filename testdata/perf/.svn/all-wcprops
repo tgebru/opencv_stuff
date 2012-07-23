@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/opencv/!svn/ver/8457/trunk/opencv_extra/testdata/perf
+END
+400x320.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/7030/trunk/opencv_extra/testdata/perf/400x320.jpg
+END
+imgproc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/8457/trunk/opencv_extra/testdata/perf/imgproc.xml
+END
+calib3d.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/8046/trunk/opencv_extra/testdata/perf/calib3d.xml
+END
+320x260.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/7030/trunk/opencv_extra/testdata/perf/320x260.jpg
+END
+800x600.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/7030/trunk/opencv_extra/testdata/perf/800x600.jpg
+END
+512x512.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/7030/trunk/opencv_extra/testdata/perf/512x512.jpg
+END
+helper.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/opencv/!svn/ver/7110/trunk/opencv_extra/testdata/perf/helper.py
+END
+core.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/opencv/!svn/ver/8046/trunk/opencv_extra/testdata/perf/core.xml
+END
+1280x1024.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/opencv/!svn/ver/7030/trunk/opencv_extra/testdata/perf/1280x1024.jpg
+END
+640x512.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/7030/trunk/opencv_extra/testdata/perf/640x512.jpg
+END
+photo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/opencv/!svn/ver/8046/trunk/opencv_extra/testdata/perf/photo.xml
+END
+2560x1600.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/opencv/!svn/ver/7030/trunk/opencv_extra/testdata/perf/2560x1600.jpg
+END
+1680x1050.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/opencv/!svn/ver/7031/trunk/opencv_extra/testdata/perf/1680x1050.jpg
+END
+1920x1080.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/opencv/!svn/ver/7030/trunk/opencv_extra/testdata/perf/1920x1080.jpg
+END

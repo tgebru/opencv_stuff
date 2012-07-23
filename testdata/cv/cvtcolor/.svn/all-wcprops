@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/opencv/!svn/ver/8046/trunk/opencv_extra/testdata/cv/cvtcolor
+END
+bayer_input.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/8046/trunk/opencv_extra/testdata/cv/cvtcolor/bayer_input.png
+END
+bayerVNG_gold.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/opencv/!svn/ver/7709/trunk/opencv_extra/testdata/cv/cvtcolor/bayerVNG_gold.png
+END
+bayer_gold.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/8046/trunk/opencv_extra/testdata/cv/cvtcolor/bayer_gold.png
+END

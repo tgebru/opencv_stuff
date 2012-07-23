@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/opencv/!svn/ver/7630/trunk/opencv_extra/testdata/gpu/matchtemplate
+END
+black.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/4521/trunk/opencv_extra/testdata/gpu/matchtemplate/black.png
+END
+source-0.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/6592/trunk/opencv_extra/testdata/gpu/matchtemplate/source-0.png
+END
+source-1.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/6592/trunk/opencv_extra/testdata/gpu/matchtemplate/source-1.png
+END
+target-0.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/6592/trunk/opencv_extra/testdata/gpu/matchtemplate/target-0.png
+END
+target-1.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/6592/trunk/opencv_extra/testdata/gpu/matchtemplate/target-1.png
+END
+cat.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/opencv/!svn/ver/4521/trunk/opencv_extra/testdata/gpu/matchtemplate/cat.png
+END
+template.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/7630/trunk/opencv_extra/testdata/gpu/matchtemplate/template.jpg
+END
+scene.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/7630/trunk/opencv_extra/testdata/gpu/matchtemplate/scene.jpg
+END

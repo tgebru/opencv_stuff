@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/opencv/!svn/ver/2873/trunk/opencv_extra/testdata/cv/stereomatching/algorithms
+END
+stereobm_params.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/opencv/!svn/ver/2803/trunk/opencv_extra/testdata/cv/stereomatching/algorithms/stereobm_params.xml
+END
+stereosgbm_res.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/opencv/!svn/ver/2873/trunk/opencv_extra/testdata/cv/stereomatching/algorithms/stereosgbm_res.xml
+END
+stereogc_res.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/opencv/!svn/ver/2754/trunk/opencv_extra/testdata/cv/stereomatching/algorithms/stereogc_res.xml
+END
+stereobm_res.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/opencv/!svn/ver/2803/trunk/opencv_extra/testdata/cv/stereomatching/algorithms/stereobm_res.xml
+END
+stereosgbm_params.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/opencv/!svn/ver/2846/trunk/opencv_extra/testdata/cv/stereomatching/algorithms/stereosgbm_params.xml
+END
+stereogc_params.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/opencv/!svn/ver/2754/trunk/opencv_extra/testdata/cv/stereomatching/algorithms/stereogc_params.xml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/3813/trunk/opencv_extra/testdata/cv/cascadeandhog
+END
+_cascade.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/opencv/!svn/ver/2442/trunk/opencv_extra/testdata/cv/cascadeandhog/_cascade.xml
+END
+cascade.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/opencv/!svn/ver/2946/trunk/opencv_extra/testdata/cv/cascadeandhog/cascade.xml
+END
+_hog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/opencv/!svn/ver/3813/trunk/opencv_extra/testdata/cv/cascadeandhog/_hog.xml
+END
+hog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/opencv/!svn/ver/3813/trunk/opencv_extra/testdata/cv/cascadeandhog/hog.xml
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/9052/trunk/opencv_extra/testdata/cv/features2d/feature_detectors
+END
+detector-fast.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/6956/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-fast.xml.gz
+END
+detector-surf.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/8895/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-surf.xml.gz
+END
+detector-grid-fast.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/opencv/!svn/ver/6956/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-grid-fast.xml.gz
+END
+detector-pyramid-fast.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/opencv/!svn/ver/6956/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-pyramid-fast.xml.gz
+END
+detector-orb.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/opencv/!svn/ver/7574/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-orb.xml.gz
+END
+detector-gftt.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/4045/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-gftt.xml.gz
+END
+detector-sift.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/9052/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-sift.xml.gz
+END
+detector-mser.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/4045/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-mser.xml.gz
+END
+detector-harris.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/opencv/!svn/ver/4045/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-harris.xml.gz
+END
+detector-star.xml.gz
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/4045/trunk/opencv_extra/testdata/cv/features2d/feature_detectors/detector-star.xml.gz
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/opencv/!svn/ver/3748/trunk/opencv_extra/testdata/ml
+END
+protocol.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/opencv/!svn/ver/2161/trunk/opencv_extra/testdata/ml/protocol.txt
+END
+mushroom.data
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/mushroom.data
+END
+adult.data
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/adult.data
+END
+housing_.data
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/3748/trunk/opencv_extra/testdata/ml/housing_.data
+END
+housing.data
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/housing.data
+END
+vehicle.data
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/vehicle.data
+END
+slvalidation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/opencv/!svn/ver/2166/trunk/opencv_extra/testdata/ml/slvalidation.xml
+END
+avalidation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/opencv/!svn/ver/2161/trunk/opencv_extra/testdata/ml/avalidation.xml
+END
+poletelecomm.data
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/poletelecomm.data
+END
+waveform.data
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/waveform.data
+END
+spambase.data
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/spambase.data
+END
+ringnorm.data
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/ringnorm.data
+END
+letter.data
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/letter.data
+END
+automobile.data
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/automobile.data
+END
+abalone.data
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/abalone.data
+END
+twonorm.data
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/twonorm.data
+END
+car.data
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/ml/car.data
+END

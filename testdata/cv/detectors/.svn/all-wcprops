@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/opencv/!svn/ver/3960/trunk/opencv_extra/testdata/cv/detectors
+END
+star.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/2426/trunk/opencv_extra/testdata/cv/detectors/star.xml
+END
+surf.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/3960/trunk/opencv_extra/testdata/cv/detectors/surf.xml
+END

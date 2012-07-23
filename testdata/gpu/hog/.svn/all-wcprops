@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/opencv/!svn/ver/4201/trunk/opencv_extra/testdata/gpu/hog
+END
+negative1.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/3953/trunk/opencv_extra/testdata/gpu/hog/negative1.png
+END
+positive1.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/3953/trunk/opencv_extra/testdata/gpu/hog/positive1.png
+END
+negative2.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/3953/trunk/opencv_extra/testdata/gpu/hog/negative2.png
+END
+positive2.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/3953/trunk/opencv_extra/testdata/gpu/hog/positive2.png
+END
+expected_output.bin
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/4201/trunk/opencv_extra/testdata/gpu/hog/expected_output.bin
+END
+negative3.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/3953/trunk/opencv_extra/testdata/gpu/hog/negative3.png
+END
+positive3.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/3953/trunk/opencv_extra/testdata/gpu/hog/positive3.png
+END
+road.png
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/3925/trunk/opencv_extra/testdata/gpu/hog/road.png
+END
+train_data.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/3953/trunk/opencv_extra/testdata/gpu/hog/train_data.png
+END

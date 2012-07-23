@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift
+END
+cones_segmented_sp10_sr10_minsize4.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize4.png
+END
+spmap.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/opencv/!svn/ver/4202/trunk/opencv_extra/testdata/gpu/meanshift/spmap.yaml
+END
+cones_segmented_sp10_sr10_minsize340.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize340.png
+END
+cones_segmented_sp10_sr10_minsize84_CC1X.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize84_CC1X.png
+END
+cones_segmented_sp10_sr10_minsize1364_CC1X.png
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize1364_CC1X.png
+END
+cones_segmented_sp10_sr10_minsize0_CC1X.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize0_CC1X.png
+END
+cones.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/opencv/!svn/ver/3512/trunk/opencv_extra/testdata/gpu/meanshift/cones.png
+END
+cones_segmented_sp10_sr10_minsize4_CC1X.png
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize4_CC1X.png
+END
+cones_segmented_sp10_sr10_minsize20.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize20.png
+END
+spmap_CC1X.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/opencv/!svn/ver/4204/trunk/opencv_extra/testdata/gpu/meanshift/spmap_CC1X.yaml
+END
+cones_segmented_sp10_sr10_minsize340_CC1X.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize340_CC1X.png
+END
+con_result.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/opencv/!svn/ver/3499/trunk/opencv_extra/testdata/gpu/meanshift/con_result.png
+END
+cones_segmented_sp10_sr10_minsize84.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize84.png
+END
+cones_segmented_sp10_sr10_minsize1364.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize1364.png
+END
+cones_segmented_sp10_sr10_minsize20_CC1X.png
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize20_CC1X.png
+END
+cones_segmented_sp10_sr10_minsize0.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/4205/trunk/opencv_extra/testdata/gpu/meanshift/cones_segmented_sp10_sr10_minsize0.png
+END
+con_result_CC1X.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/opencv/!svn/ver/4204/trunk/opencv_extra/testdata/gpu/meanshift/con_result_CC1X.png
+END

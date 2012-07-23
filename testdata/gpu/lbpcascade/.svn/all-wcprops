@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/opencv/!svn/ver/8959/trunk/opencv_extra/testdata/gpu/lbpcascade
+END
+lbpcascade_frontalface.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/opencv/!svn/ver/8738/trunk/opencv_extra/testdata/gpu/lbpcascade/lbpcascade_frontalface.xml
+END
+er.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/8959/trunk/opencv_extra/testdata/gpu/lbpcascade/er.png
+END

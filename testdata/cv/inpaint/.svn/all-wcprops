@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/opencv/!svn/ver/2287/trunk/opencv_extra/testdata/cv/inpaint
+END
+orig.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/opencv/!svn/ver/2287/trunk/opencv_extra/testdata/cv/inpaint/orig.jpg
+END
+exp1.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/opencv/!svn/ver/2287/trunk/opencv_extra/testdata/cv/inpaint/exp1.png
+END
+exp2.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/opencv/!svn/ver/2287/trunk/opencv_extra/testdata/cv/inpaint/exp2.png
+END
+mask.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/opencv/!svn/ver/2287/trunk/opencv_extra/testdata/cv/inpaint/mask.png
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/opencv/!svn/ver/2656/trunk/opencv_extra/testdata/cv/stereomatching/datasets/venus
+END
+disp2.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/2656/trunk/opencv_extra/testdata/cv/stereomatching/datasets/venus/disp2.png
+END
+disp6.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/2656/trunk/opencv_extra/testdata/cv/stereomatching/datasets/venus/disp6.png
+END
+im2.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/opencv/!svn/ver/2656/trunk/opencv_extra/testdata/cv/stereomatching/datasets/venus/im2.png
+END
+im6.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/opencv/!svn/ver/2656/trunk/opencv_extra/testdata/cv/stereomatching/datasets/venus/im6.png
+END

@@ -1,0 +1,79 @@
+10
+
+dir
+9064
+http://code.opencv.org/svn/opencv/trunk/opencv_extra/testdata/cv
+http://code.opencv.org/svn/opencv
+
+
+
+2012-07-16T10:15:15.824312Z
+9052
+mdim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c5418bc3-7546-4aae-8bad-fa6f2f3e53e6
+
+snakes
+dir
+
+watershed
+dir
+
+grabcut
+dir
+
+optflow
+dir
+
+cvtcolor
+dir
+
+detectors
+dir
+
+fast
+dir
+
+cameracalibration
+dir
+
+stereo
+dir
+
+inpaint
+dir
+
+features2d
+dir
+
+detectors_descriptors_evaluation
+dir
+
+cascadeandhog
+dir
+
+shared
+dir
+
+mser
+dir
+
+latentsvmdetector
+dir
+
+stereomatching
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/opencv/!svn/ver/3140/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/one_way_train_images
+END
+one_way_train_images.txt
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/opencv/!svn/ver/3140/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/one_way_train_images/one_way_train_images.txt
+END
+one_way_train_0000.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3140/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/one_way_train_images/one_way_train_0000.jpg
+END
+one_way_train_0001.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/opencv/!svn/ver/3140/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation/one_way_train_images/one_way_train_0001.jpg
+END

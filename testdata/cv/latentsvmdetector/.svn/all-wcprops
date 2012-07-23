@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/opencv/!svn/ver/8280/trunk/opencv_extra/testdata/cv/latentsvmdetector
+END
+mat2xml.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/6802/trunk/opencv_extra/testdata/cv/latentsvmdetector/mat2xml.m
+END
+results.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/opencv/!svn/ver/8280/trunk/opencv_extra/testdata/cv/latentsvmdetector/results.xml
+END
+cat.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/opencv/!svn/ver/3869/trunk/opencv_extra/testdata/cv/latentsvmdetector/cat.jpg
+END
+cars.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/opencv/!svn/ver/6827/trunk/opencv_extra/testdata/cv/latentsvmdetector/cars.jpg
+END

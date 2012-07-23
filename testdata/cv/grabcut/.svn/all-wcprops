@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/opencv/!svn/ver/7717/trunk/opencv_extra/testdata/cv/grabcut
+END
+mask_prob.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/opencv/!svn/ver/3902/trunk/opencv_extra/testdata/cv/grabcut/mask_prob.png
+END
+mask1652.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/opencv/!svn/ver/7717/trunk/opencv_extra/testdata/cv/grabcut/mask1652.ppm
+END
+exp_mask1.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/opencv/!svn/ver/3902/trunk/opencv_extra/testdata/cv/grabcut/exp_mask1.png
+END
+image1652.ppm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/opencv/!svn/ver/7717/trunk/opencv_extra/testdata/cv/grabcut/image1652.ppm
+END
+exp_mask2.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/opencv/!svn/ver/3902/trunk/opencv_extra/testdata/cv/grabcut/exp_mask2.png
+END

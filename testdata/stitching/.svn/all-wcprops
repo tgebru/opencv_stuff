@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/opencv/!svn/ver/7235/trunk/opencv_extra/testdata/stitching
+END
+a1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/5613/trunk/opencv_extra/testdata/stitching/a1.jpg
+END
+a2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/5613/trunk/opencv_extra/testdata/stitching/a2.jpg
+END
+a_result.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/5613/trunk/opencv_extra/testdata/stitching/a_result.png
+END
+b1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/5613/trunk/opencv_extra/testdata/stitching/b1.jpg
+END
+a3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/5613/trunk/opencv_extra/testdata/stitching/a3.jpg
+END
+b2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/opencv/!svn/ver/5613/trunk/opencv_extra/testdata/stitching/b2.jpg
+END
+b_result.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/5613/trunk/opencv_extra/testdata/stitching/b_result.png
+END
+baboon_lena.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/opencv/!svn/ver/7235/trunk/opencv_extra/testdata/stitching/baboon_lena.png
+END
+a_result.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/5618/trunk/opencv_extra/testdata/stitching/a_result.jpg
+END
+b_result.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/5618/trunk/opencv_extra/testdata/stitching/b_result.jpg
+END

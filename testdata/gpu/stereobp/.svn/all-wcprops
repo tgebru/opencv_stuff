@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/opencv/!svn/ver/3551/trunk/opencv_extra/testdata/gpu/stereobp
+END
+aloe-disp.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/3551/trunk/opencv_extra/testdata/gpu/stereobp/aloe-disp.png
+END
+aloe-R.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/opencv/!svn/ver/3551/trunk/opencv_extra/testdata/gpu/stereobp/aloe-R.png
+END
+aloe-L.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/opencv/!svn/ver/3551/trunk/opencv_extra/testdata/gpu/stereobp/aloe-L.png
+END

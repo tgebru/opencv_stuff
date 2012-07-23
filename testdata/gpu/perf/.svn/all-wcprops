@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/opencv/!svn/ver/8439/trunk/opencv_extra/testdata/gpu/perf
+END
+aloe.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/opencv/!svn/ver/6688/trunk/opencv_extra/testdata/gpu/perf/aloe.jpg
+END
+aloeR.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/opencv/!svn/ver/6707/trunk/opencv_extra/testdata/gpu/perf/aloeR.jpg
+END
+haarcascade_frontalface_alt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/opencv/!svn/ver/8439/trunk/opencv_extra/testdata/gpu/perf/haarcascade_frontalface_alt.xml
+END

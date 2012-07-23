@@ -1,0 +1,64 @@
+10
+
+dir
+9064
+http://code.opencv.org/svn/opencv/trunk/opencv_extra/testdata/gpu
+http://code.opencv.org/svn/opencv
+
+
+
+2012-07-04T12:11:11.508833Z
+8959
+marina.kolpakova
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c5418bc3-7546-4aae-8bad-fa6f2f3e53e6
+
+haarcascade
+dir
+
+stereobm
+dir
+
+lbpcascade
+dir
+
+opticalflow
+dir
+
+stereobp
+dir
+
+features2d
+dir
+
+video
+dir
+
+matchtemplate
+dir
+
+csstereobp
+dir
+
+perf
+dir
+
+hog
+dir
+
+meanshift
+dir
+

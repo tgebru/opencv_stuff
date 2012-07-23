@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/opencv/!svn/ver/7755/trunk/opencv_extra/testdata/highgui/readwrite
+END
+test_1_c1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_1_c1.jpg
+END
+test_2_c1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_2_c1.jpg
+END
+test_1_c3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_1_c3.jpg
+END
+test_3_c1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_3_c1.jpg
+END
+ordinary.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/7755/trunk/opencv_extra/testdata/highgui/readwrite/ordinary.bmp
+END
+test_2_c3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_2_c3.jpg
+END
+test_4_c1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_4_c1.jpg
+END
+test_3_c3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_3_c3.jpg
+END
+test_5_c1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_5_c1.jpg
+END
+test_4_c3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_4_c3.jpg
+END
+rle8.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/7755/trunk/opencv_extra/testdata/highgui/readwrite/rle8.bmp
+END
+test_5_c3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/5339/trunk/opencv_extra/testdata/highgui/readwrite/test_5_c3.jpg
+END
+read.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/5308/trunk/opencv_extra/testdata/highgui/readwrite/read.png
+END

@@ -1,0 +1,305 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration
+END
+chessboard-artificial1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/opencv/!svn/ver/2525/trunk/opencv_extra/testdata/cv/cameracalibration/chessboard-artificial1.jpg
+END
+chessboard-artificial2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/opencv/!svn/ver/2525/trunk/opencv_extra/testdata/cv/cameracalibration/chessboard-artificial2.jpg
+END
+BoardStereoL1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoL1.jpg
+END
+BoardStereoL2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoL2.jpg
+END
+chessboard_timing_list.dat
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/opencv/!svn/ver/2525/trunk/opencv_extra/testdata/cv/cameracalibration/chessboard_timing_list.dat
+END
+BoardStereoL3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoL3.jpg
+END
+BoardStereoL4.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoL4.jpg
+END
+BoardStereoL5.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoL5.jpg
+END
+BoardStereoL6.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoL6.jpg
+END
+BoardStereoR1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoR1.jpg
+END
+BoardStereoR2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoR2.jpg
+END
+BoardStereoR3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoR3.jpg
+END
+small_chessboard1.dat
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/small_chessboard1.dat
+END
+small_chessboard2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/small_chessboard2.dat
+END
+BoardStereoR4.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoR4.jpg
+END
+BoardStereoR5.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoR5.jpg
+END
+small_chessboard3.dat
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/small_chessboard3.dat
+END
+BoardStereoR6.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/BoardStereoR6.jpg
+END
+negative_1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/negative_1.jpg
+END
+calib1.dat
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/calib1.dat
+END
+negative_2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/negative_2.jpg
+END
+negative_3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/negative_3.jpg
+END
+negative_list.dat
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/negative_list.dat
+END
+chess1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess1.jpg
+END
+chess2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess2.jpg
+END
+chess3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess3.jpg
+END
+chess4.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess4.jpg
+END
+chess5.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess5.jpg
+END
+chess6.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess6.jpg
+END
+chess7.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess7.jpg
+END
+chess8.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess8.jpg
+END
+chess9.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/chess9.jpg
+END
+chessboard_list.dat
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/opencv/!svn/ver/2504/trunk/opencv_extra/testdata/cv/cameracalibration/chessboard_list.dat
+END
+chess_corners1.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners1.dat
+END
+chess_corners2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners2.dat
+END
+negative_1.dat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/negative_1.dat
+END
+chess_corners3.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners3.dat
+END
+chessboard_list_subpixel.dat
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/opencv/!svn/ver/2663/trunk/opencv_extra/testdata/cv/cameracalibration/chessboard_list_subpixel.dat
+END
+negative_2.dat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/negative_2.dat
+END
+chess_corners4.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners4.dat
+END
+negative_3.dat
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/negative_3.dat
+END
+chess_corners5.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners5.dat
+END
+chess_corners6.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners6.dat
+END
+chess_corners7.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners7.dat
+END
+chess_corners8.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners8.dat
+END
+chess_corners9.dat
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/7690/trunk/opencv_extra/testdata/cv/cameracalibration/chess_corners9.dat
+END
+small_chessboard1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/2480/trunk/opencv_extra/testdata/cv/cameracalibration/small_chessboard1.jpg
+END
+small_chessboard2.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/2480/trunk/opencv_extra/testdata/cv/cameracalibration/small_chessboard2.jpg
+END
+small_chessboard3.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/opencv/!svn/ver/2480/trunk/opencv_extra/testdata/cv/cameracalibration/small_chessboard3.jpg
+END
+datafiles.txt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/cameracalibration/datafiles.txt
+END

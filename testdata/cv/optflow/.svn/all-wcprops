@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/opencv/!svn/ver/8046/trunk/opencv_extra/testdata/cv/optflow
+END
+lk_prev.dat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/optflow/lk_prev.dat
+END
+lk_next.dat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/optflow/lk_next.dat
+END
+rock_1.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/optflow/rock_1.bmp
+END
+rock_2.bmp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/1964/trunk/opencv_extra/testdata/cv/optflow/rock_2.bmp
+END

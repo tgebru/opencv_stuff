@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/opencv/!svn/ver/4755/trunk/opencv_extra/testdata/gpu/haarcascade
+END
+haarcascade_eye.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/opencv/!svn/ver/4755/trunk/opencv_extra/testdata/gpu/haarcascade/haarcascade_eye.xml
+END
+haarcascade_frontalface_alt_tree.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/opencv/!svn/ver/4755/trunk/opencv_extra/testdata/gpu/haarcascade/haarcascade_frontalface_alt_tree.xml
+END
+haarcascade_frontalface_alt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/opencv/!svn/ver/4755/trunk/opencv_extra/testdata/gpu/haarcascade/haarcascade_frontalface_alt.xml
+END
+haarcascade_eye_tree_eyeglasses.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/opencv/!svn/ver/4755/trunk/opencv_extra/testdata/gpu/haarcascade/haarcascade_eye_tree_eyeglasses.xml
+END
+haarcascade_frontalface_alt2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/opencv/!svn/ver/4755/trunk/opencv_extra/testdata/gpu/haarcascade/haarcascade_frontalface_alt2.xml
+END
+group_1_640x480_VGA.pgm
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/4755/trunk/opencv_extra/testdata/gpu/haarcascade/group_1_640x480_VGA.pgm
+END

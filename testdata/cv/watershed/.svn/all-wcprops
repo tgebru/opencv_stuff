@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/opencv/!svn/ver/2359/trunk/opencv_extra/testdata/cv/watershed
+END
+wshed_exp.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2359/trunk/opencv_extra/testdata/cv/watershed/wshed_exp.png
+END
+comp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/2305/trunk/opencv_extra/testdata/cv/watershed/comp.xml
+END

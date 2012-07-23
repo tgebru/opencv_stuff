@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1
+END
+left06.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left06.jpg
+END
+left07.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left07.jpg
+END
+left08.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left08.jpg
+END
+left09.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left09.jpg
+END
+right01.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right01.jpg
+END
+right02.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right02.jpg
+END
+right11.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right11.jpg
+END
+right03.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right03.jpg
+END
+right12.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right12.jpg
+END
+right04.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right04.jpg
+END
+right13.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right13.jpg
+END
+right05.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right05.jpg
+END
+right14.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right14.jpg
+END
+right06.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right06.jpg
+END
+right07.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right07.jpg
+END
+right08.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right08.jpg
+END
+right09.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/right09.jpg
+END
+stereo_calib.txt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/stereo_calib.txt
+END
+left01.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left01.jpg
+END
+left11.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left11.jpg
+END
+left02.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left02.jpg
+END
+left12.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left12.jpg
+END
+left03.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left03.jpg
+END
+left13.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left13.jpg
+END
+left04.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left04.jpg
+END
+left14.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left14.jpg
+END
+left05.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/opencv/!svn/ver/2355/trunk/opencv_extra/testdata/cv/stereo/case1/left05.jpg
+END

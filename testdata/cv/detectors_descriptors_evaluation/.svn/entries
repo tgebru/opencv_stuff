@@ -1,0 +1,77 @@
+10
+
+dir
+9064
+http://code.opencv.org/svn/opencv/trunk/opencv_extra/testdata/cv/detectors_descriptors_evaluation
+http://code.opencv.org/svn/opencv
+
+
+
+2010-10-05T09:11:42.418053Z
+3711
+mdim
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c5418bc3-7546-4aae-8bad-fa6f2f3e53e6
+
+descriptors
+dir
+
+one_way_train_images
+dir
+
+evaluation_test_description.txt
+file
+
+
+
+
+2012-07-21T20:16:53.000000Z
+0e346d20d083c9f55593be6312489313
+2010-10-05T09:11:42.418053Z
+3711
+mdim
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8206
+
+detectors
+dir
+
+images_datasets
+dir
+
+keypoints_datasets
+dir
+
