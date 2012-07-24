@@ -1,3 +1,6 @@
+// SHIRMUNG:
+// changed file to .mm and had to resolve a lot of namespace issues
+
 /*M///////////////////////////////////////////////////////////////////////////////////////
 //
 //  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
@@ -42,6 +45,8 @@
 #include "test_precomp.hpp"
 
 #include <limits>
+
+#include "CVImageConverter.h"
 
 #if 0
 class CV_ProjectPointsTest : public cvtest::ArrayTest
@@ -739,7 +744,7 @@ void CV_CameraCalibrationTest_CPP::calibrate( int imageCount, int* pointCounts,
 {
     vector<vector<Point3f> > objectPoints( imageCount );
     vector<vector<Point2f> > imagePoints( imageCount );
-    Size imageSize = _imageSize;
+    cv::Size imageSize = _imageSize;
     Mat cameraMatrix, distCoeffs(1,4,CV_64F,Scalar::all(0));
     vector<Mat> rvecs, tvecs;
 
@@ -823,7 +828,7 @@ public:
     CV_CalibrationMatrixValuesTest() {}
 protected:
     void run(int);
-    virtual void calibMatrixValues( const Mat& cameraMatrix, Size imageSize,
+    virtual void calibMatrixValues( const Mat& cameraMatrix, cv::Size imageSize,
         double apertureWidth, double apertureHeight, double& fovx, double& fovy, double& focalLength,
         Point2d& principalPoint, double& aspectRatio ) = 0;
 };
@@ -846,7 +851,7 @@ void CV_CalibrationMatrixValuesTest::run(int)
     cy = cameraMatrix.at<double>(1,2) = rng.uniform( fcMinVal, fcMaxVal );
     cameraMatrix.at<double>(2,2) = 1;
 
-    Size imageSize( 600, 400 );
+    cv::Size imageSize( 600, 400 );
 
     double apertureWidth = (double)rng * apertureMaxVal,
            apertureHeight = (double)rng * apertureMaxVal;
@@ -926,12 +931,12 @@ class CV_CalibrationMatrixValuesTest_C : public CV_CalibrationMatrixValuesTest
 public:
     CV_CalibrationMatrixValuesTest_C(){}
 protected:
-    virtual void calibMatrixValues( const Mat& cameraMatrix, Size imageSize,
+    virtual void calibMatrixValues( const Mat& cameraMatrix, cv::Size imageSize,
         double apertureWidth, double apertureHeight, double& fovx, double& fovy, double& focalLength,
         Point2d& principalPoint, double& aspectRatio );
 };
 
-void CV_CalibrationMatrixValuesTest_C::calibMatrixValues( const Mat& _cameraMatrix, Size imageSize,
+void CV_CalibrationMatrixValuesTest_C::calibMatrixValues( const Mat& _cameraMatrix, cv::Size imageSize,
                                                double apertureWidth, double apertureHeight,
                                                double& fovx, double& fovy, double& focalLength,
                                                Point2d& principalPoint, double& aspectRatio )
@@ -952,12 +957,12 @@ class CV_CalibrationMatrixValuesTest_CPP : public CV_CalibrationMatrixValuesTest
 public:
     CV_CalibrationMatrixValuesTest_CPP() {}
 protected:
-    virtual void calibMatrixValues( const Mat& cameraMatrix, Size imageSize,
+    virtual void calibMatrixValues( const Mat& cameraMatrix, cv::Size imageSize,
         double apertureWidth, double apertureHeight, double& fovx, double& fovy, double& focalLength,
         Point2d& principalPoint, double& aspectRatio );
 };
 
-void CV_CalibrationMatrixValuesTest_CPP::calibMatrixValues( const Mat& cameraMatrix, Size imageSize,
+void CV_CalibrationMatrixValuesTest_CPP::calibMatrixValues( const Mat& cameraMatrix, cv::Size imageSize,
                                                          double apertureWidth, double apertureHeight,
                                                          double& fovx, double& fovy, double& focalLength,
                                                          Point2d& principalPoint, double& aspectRatio )
@@ -1026,7 +1031,7 @@ void CV_ProjectPointsTest::run(int)
 
     double err;
 
-    Size imgSize( 600, 800 );
+    cv::Size imgSize( 600, 800 );
     Mat_<float> objPoints( pointCount, 3), rvec( 1, 3), rmat, tvec( 1, 3 ), cameraMatrix( 3, 3 ), distCoeffs( 1, 4 ),
       leftRvec, rightRvec, leftTvec, rightTvec, leftCameraMatrix, rightCameraMatrix, leftDistCoeffs, rightDistCoeffs;
 
@@ -1279,7 +1284,7 @@ public:
 protected:
     bool checkPandROI( int test_case_idx,
         const Mat& M, const Mat& D, const Mat& R,
-        const Mat& P, Size imgsize, Rect roi );
+        const Mat& P, cv::Size imgsize, cv::Rect roi );
 
     // covers of tested functions
     virtual double calibrateStereoCamera( const vector<vector<Point3f> >& objectPoints,
@@ -1287,16 +1292,16 @@ protected:
         const vector<vector<Point2f> >& imagePoints2,
         Mat& cameraMatrix1, Mat& distCoeffs1,
         Mat& cameraMatrix2, Mat& distCoeffs2,
-        Size imageSize, Mat& R, Mat& T,
+        cv::Size imageSize, Mat& R, Mat& T,
         Mat& E, Mat& F, TermCriteria criteria, int flags ) = 0;
     virtual void rectify( const Mat& cameraMatrix1, const Mat& distCoeffs1,
         const Mat& cameraMatrix2, const Mat& distCoeffs2,
-        Size imageSize, const Mat& R, const Mat& T,
+        cv::Size imageSize, const Mat& R, const Mat& T,
         Mat& R1, Mat& R2, Mat& P1, Mat& P2, Mat& Q,
-        double alpha, Size newImageSize,
-        Rect* validPixROI1, Rect* validPixROI2, int flags ) = 0;
+        double alpha, cv::Size newImageSize,
+        cv::Rect* validPixROI1, cv::Rect* validPixROI2, int flags ) = 0;
     virtual bool rectifyUncalibrated( const Mat& points1,
-        const Mat& points2, const Mat& F, Size imgSize,
+        const Mat& points2, const Mat& F, cv::Size imgSize,
         Mat& H1, Mat& H2, double threshold=5 ) = 0;
     virtual void triangulate( const Mat& P1, const Mat& P2,
         const Mat &points1, const Mat &points2,
@@ -1325,7 +1330,7 @@ void CV_StereoCalibrationTest::clear()
 }
 
 bool CV_StereoCalibrationTest::checkPandROI( int test_case_idx, const Mat& M, const Mat& D, const Mat& R,
-                                            const Mat& P, Size imgsize, Rect roi )
+                                            const Mat& P, cv::Size imgsize, cv::Rect roi )
 {
     const double eps = 0.05;
     const int N = 21;
@@ -1384,7 +1389,7 @@ void CV_StereoCalibrationTest::run( int )
         char buf[1000];
         sprintf( filepath, "%sstereo/case%d/stereo_calib.txt", ts->get_data_path().c_str(), testcase );
         f = fopen(filepath, "rt");
-        Size patternSize;
+        cv::Size patternSize;
         vector<string> imglist;
 
         if( !f || !fgets(buf, sizeof(buf)-3, f) || sscanf(buf, "%d%d", &patternSize.width, &patternSize.height) != 2 )
@@ -1420,13 +1425,24 @@ void CV_StereoCalibrationTest::run( int )
         vector<vector<Point3f> > objpt(nframes);
         vector<vector<Point2f> > imgpt1(nframes);
         vector<vector<Point2f> > imgpt2(nframes);
-        Size imgsize;
+        cv::Size imgsize;
         int total = 0;
 
         for( int i = 0; i < nframes; i++ )
         {
-            Mat left = imread(imglist[i*2]);
-            Mat right = imread(imglist[i*2+1]);
+            // SHIRMUNG:
+            // loading image as UIImage and converting to cv::Mat
+            UIImage *leftImage = [UIImage imageWithContentsOfFile:[NSString stringWithCString:imglist[i*2].c_str() encoding:[NSString defaultCStringEncoding]]];
+            Mat left;
+            [CVImageConverter CVMat:left FromUIImage:leftImage error:NULL];
+
+            UIImage *rightImage = [UIImage imageWithContentsOfFile:[NSString stringWithCString:imglist[i*2+1].c_str() encoding:[NSString defaultCStringEncoding]]];
+            Mat right;
+            [CVImageConverter CVMat:right FromUIImage:rightImage error:NULL];
+
+            //Mat left = imread(imglist[i*2]);
+            //Mat right = imread(imglist[i*2+1]);
+
             if(!left.data || !right.data)
             {
                 ts->printf( cvtest::TS::LOG, "Can not load images %s and %s, testcase %d\n",
@@ -1473,7 +1489,7 @@ void CV_StereoCalibrationTest::run( int )
         }
 
         Mat R1, R2, P1, P2, Q;
-        Rect roi1, roi2;
+        cv::Rect roi1, roi2;
         rectify(M1, D1, M2, D2, imgsize, R, T, R1, R2, P1, P2, Q, 1, imgsize, &roi1, &roi2, 0);
         Mat eye33 = Mat::eye(3,3,CV_64F);
         Mat R1t = R1.t(), R2t = R2.t();
@@ -1666,16 +1682,16 @@ protected:
         const vector<vector<Point2f> >& imagePoints2,
         Mat& cameraMatrix1, Mat& distCoeffs1,
         Mat& cameraMatrix2, Mat& distCoeffs2,
-        Size imageSize, Mat& R, Mat& T,
+        cv::Size imageSize, Mat& R, Mat& T,
         Mat& E, Mat& F, TermCriteria criteria, int flags );
     virtual void rectify( const Mat& cameraMatrix1, const Mat& distCoeffs1,
         const Mat& cameraMatrix2, const Mat& distCoeffs2,
-        Size imageSize, const Mat& R, const Mat& T,
+        cv::Size imageSize, const Mat& R, const Mat& T,
         Mat& R1, Mat& R2, Mat& P1, Mat& P2, Mat& Q,
-        double alpha, Size newImageSize,
-        Rect* validPixROI1, Rect* validPixROI2, int flags );
+        double alpha, cv::Size newImageSize,
+        cv::Rect* validPixROI1, cv::Rect* validPixROI2, int flags );
     virtual bool rectifyUncalibrated( const Mat& points1,
-        const Mat& points2, const Mat& F, Size imgSize,
+        const Mat& points2, const Mat& F, cv::Size imgSize,
         Mat& H1, Mat& H2, double threshold=5 );
     virtual void triangulate( const Mat& P1, const Mat& P2,
         const Mat &points1, const Mat &points2,
@@ -1690,7 +1706,7 @@ double CV_StereoCalibrationTest_C::calibrateStereoCamera( const vector<vector<Po
                  const vector<vector<Point2f> >& imagePoints2,
                  Mat& cameraMatrix1, Mat& distCoeffs1,
                  Mat& cameraMatrix2, Mat& distCoeffs2,
-                 Size imageSize, Mat& R, Mat& T,
+                 cv::Size imageSize, Mat& R, Mat& T,
                  Mat& E, Mat& F, TermCriteria criteria, int flags )
 {
     cameraMatrix1.create( 3, 3, CV_64F );
@@ -1736,10 +1752,10 @@ double CV_StereoCalibrationTest_C::calibrateStereoCamera( const vector<vector<Po
 
 void CV_StereoCalibrationTest_C::rectify( const Mat& cameraMatrix1, const Mat& distCoeffs1,
              const Mat& cameraMatrix2, const Mat& distCoeffs2,
-             Size imageSize, const Mat& R, const Mat& T,
+             cv::Size imageSize, const Mat& R, const Mat& T,
              Mat& R1, Mat& R2, Mat& P1, Mat& P2, Mat& Q,
-             double alpha, Size newImageSize,
-             Rect* validPixROI1, Rect* validPixROI2, int flags )
+             double alpha, cv::Size newImageSize,
+             cv::Rect* validPixROI1, cv::Rect* validPixROI2, int flags )
 {
     int rtype = CV_64F;
     R1.create(3, 3, rtype);
@@ -1756,12 +1772,12 @@ void CV_StereoCalibrationTest_C::rectify( const Mat& cameraMatrix1, const Mat& d
 }
 
 bool CV_StereoCalibrationTest_C::rectifyUncalibrated( const Mat& points1,
-           const Mat& points2, const Mat& F, Size imgSize, Mat& H1, Mat& H2, double threshold )
+           const Mat& points2, const Mat& F, cv::Size imgSize, Mat& H1, Mat& H2, double threshold )
 {
     H1.create(3, 3, CV_64F);
     H2.create(3, 3, CV_64F);
     CvMat _pt1 = points1, _pt2 = points2, matF, *pF=0, _H1 = H1, _H2 = H2;
-    if( F.size() == Size(3, 3) )
+    if( F.size() == cv::Size(3, 3) )
         pF = &(matF = F);
     return cvStereoRectifyUncalibrated(&_pt1, &_pt2, pF, imgSize, &_H1, &_H2, threshold) > 0;
 }
@@ -1799,16 +1815,16 @@ protected:
         const vector<vector<Point2f> >& imagePoints2,
         Mat& cameraMatrix1, Mat& distCoeffs1,
         Mat& cameraMatrix2, Mat& distCoeffs2,
-        Size imageSize, Mat& R, Mat& T,
+        cv::Size imageSize, Mat& R, Mat& T,
         Mat& E, Mat& F, TermCriteria criteria, int flags );
     virtual void rectify( const Mat& cameraMatrix1, const Mat& distCoeffs1,
         const Mat& cameraMatrix2, const Mat& distCoeffs2,
-        Size imageSize, const Mat& R, const Mat& T,
+        cv::Size imageSize, const Mat& R, const Mat& T,
         Mat& R1, Mat& R2, Mat& P1, Mat& P2, Mat& Q,
-        double alpha, Size newImageSize,
-        Rect* validPixROI1, Rect* validPixROI2, int flags );
+        double alpha, cv::Size newImageSize,
+        cv::Rect* validPixROI1, cv::Rect* validPixROI2, int flags );
     virtual bool rectifyUncalibrated( const Mat& points1,
-        const Mat& points2, const Mat& F, Size imgSize,
+        const Mat& points2, const Mat& F, cv::Size imgSize,
         Mat& H1, Mat& H2, double threshold=5 );
     virtual void triangulate( const Mat& P1, const Mat& P2,
         const Mat &points1, const Mat &points2,
@@ -1823,7 +1839,7 @@ double CV_StereoCalibrationTest_CPP::calibrateStereoCamera( const vector<vector<
                                              const vector<vector<Point2f> >& imagePoints2,
                                              Mat& cameraMatrix1, Mat& distCoeffs1,
                                              Mat& cameraMatrix2, Mat& distCoeffs2,
-                                             Size imageSize, Mat& R, Mat& T,
+                                             cv::Size imageSize, Mat& R, Mat& T,
                                              Mat& E, Mat& F, TermCriteria criteria, int flags )
 {
     return stereoCalibrate( objectPoints, imagePoints1, imagePoints2,
@@ -1833,17 +1849,17 @@ double CV_StereoCalibrationTest_CPP::calibrateStereoCamera( const vector<vector<
 
 void CV_StereoCalibrationTest_CPP::rectify( const Mat& cameraMatrix1, const Mat& distCoeffs1,
                                          const Mat& cameraMatrix2, const Mat& distCoeffs2,
-                                         Size imageSize, const Mat& R, const Mat& T,
+                                         cv::Size imageSize, const Mat& R, const Mat& T,
                                          Mat& R1, Mat& R2, Mat& P1, Mat& P2, Mat& Q,
-                                         double alpha, Size newImageSize,
-                                         Rect* validPixROI1, Rect* validPixROI2, int flags )
+                                         double alpha, cv::Size newImageSize,
+                                         cv::Rect* validPixROI1, cv::Rect* validPixROI2, int flags )
 {
     stereoRectify( cameraMatrix1, distCoeffs1, cameraMatrix2, distCoeffs2,
                 imageSize, R, T, R1, R2, P1, P2, Q, flags, alpha, newImageSize,validPixROI1, validPixROI2 );
 }
 
 bool CV_StereoCalibrationTest_CPP::rectifyUncalibrated( const Mat& points1,
-                       const Mat& points2, const Mat& F, Size imgSize, Mat& H1, Mat& H2, double threshold )
+                       const Mat& points2, const Mat& F, cv::Size imgSize, Mat& H1, Mat& H2, double threshold )
 {
     return stereoRectifyUncalibrated( points1, points2, F, imgSize, H1, H2, threshold );
 }

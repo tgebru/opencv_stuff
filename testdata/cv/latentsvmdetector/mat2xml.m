@@ -1,4 +1,6 @@
-// commented out b/c it doesn't compile
+// SHIRMUNG:
+// commented out because it doesn't compile
+
 //function [] = mat2xml(fname_in, fname_out)
 //load(fname_in);
 //num_feat = 31;

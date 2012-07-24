@@ -449,6 +449,7 @@ static int tsErrorCallback( int status, const char* func_name, const char* err_m
 
 void TS::init( const string& modulename )
 {
+    // SHIRMUNG:
     // path value should be set by user
     setenv("OPENCV_TEST_DATA_PATH", "/Users/shirmung/Desktop/opencv/opencv_stuff/testdata/", 1);
     

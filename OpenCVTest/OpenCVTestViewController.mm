@@ -1,5 +1,5 @@
 //
-//  OpenCVTestViewController.m
+//  OpenCVTestViewController.mm
 //  OpenCVTest
 //
 //  Created by Shirmung Bielefeld on 7/21/12.
