@@ -8,6 +8,7 @@
 
 #import "OpenCVTestViewController.h"
 #include "test_precomp.hpp"
+#include "perf_precomp.hpp"
 
 @implementation OpenCVTestViewController
 
@@ -19,8 +20,15 @@
     cvtest::TS::ptr()->init("cv");
     int argc = 0;
     char **argv = NULL;
+
+    ::perf::Regression::Init("core");
+    ::perf::TestBase::Init(argc, argv);
     ::testing::InitGoogleTest(&argc, argv);
     RUN_ALL_TESTS();
+  
+    
+    //CV_PERF_TEST_MAIN(core)
+
 }
 
 - (void)viewDidUnload

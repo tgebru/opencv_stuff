@@ -306,11 +306,15 @@ enum
     CV_YUV2GRAY_YUYV = CV_YUV2GRAY_YUY2,
     CV_YUV2GRAY_YUNV = CV_YUV2GRAY_YUY2,
 
+<<<<<<< HEAD
     // alpha premultiplication
     CV_RGBA2mRGBA = 125,
     CV_mRGBA2RGBA = 126,
 
     CV_COLORCVT_MAX  = 127
+=======
+    CV_COLORCVT_MAX  = 125
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 };
 
 
@@ -426,6 +430,7 @@ CvChainPtReader;
      (deltas)[6] =  (step), (deltas)[7] =  (step) + (nch))
 
 
+<<<<<<< HEAD
 /****************************************************************************************\
 *                              Planar subdivisions                                       *
 \****************************************************************************************/
@@ -499,6 +504,8 @@ CvNextEdgeType;
 #define  CV_SUBDIV2D_NEXT_EDGE( edge )  (((CvQuadEdge2D*)((edge) & ~3))->next[(edge)&3])
 
 
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 /* Contour approximation algorithms */
 enum
 {
@@ -537,8 +544,12 @@ enum
     CV_COMP_CORREL        =0,
     CV_COMP_CHISQR        =1,
     CV_COMP_INTERSECT     =2,
+<<<<<<< HEAD
     CV_COMP_BHATTACHARYYA =3,
     CV_COMP_HELLINGER     =CV_COMP_BHATTACHARYYA
+=======
+    CV_COMP_BHATTACHARYYA =3
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 };
 
 /* Mask size for distance transform */

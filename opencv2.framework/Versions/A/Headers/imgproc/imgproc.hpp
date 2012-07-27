@@ -1007,11 +1007,15 @@ enum
     COLOR_YUV2GRAY_YUYV = COLOR_YUV2GRAY_YUY2,
     COLOR_YUV2GRAY_YUNV = COLOR_YUV2GRAY_YUY2,
 
+<<<<<<< HEAD
     // alpha premultiplication
     COLOR_RGBA2mRGBA = 125,
     COLOR_mRGBA2RGBA = 126,
 
     COLOR_COLORCVT_MAX  = 127
+=======
+    COLOR_COLORCVT_MAX  = 125
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 };
 
 
@@ -1082,6 +1086,7 @@ CV_EXPORTS_W void findContours( InputOutputArray image, OutputArrayOfArrays cont
 CV_EXPORTS void findContours( InputOutputArray image, OutputArrayOfArrays contours,
                               int mode, int method, Point offset=Point());
 
+<<<<<<< HEAD
 //! draws contours in the image
 CV_EXPORTS_W void drawContours( InputOutputArray image, InputArrayOfArrays contours,
                               int contourIdx, const Scalar& color,
@@ -1089,6 +1094,8 @@ CV_EXPORTS_W void drawContours( InputOutputArray image, InputArrayOfArrays conto
                               InputArray hierarchy=noArray(),
                               int maxLevel=INT_MAX, Point offset=Point() );
 
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 //! approximates contour or a curve using Douglas-Peucker algorithm
 CV_EXPORTS_W void approxPolyDP( InputArray curve,
                                 OutputArray approxCurve,

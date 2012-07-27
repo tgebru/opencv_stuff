@@ -83,7 +83,11 @@
 #  if defined WIN32
 #    include <intrin.h>
 #  endif
+<<<<<<< HEAD
 #  if defined __SSE2__ || !defined __GNUC__
+=======
+#  if __SSE2__ || !defined __GNUC__
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 #    include <emmintrin.h>
 #  endif
 #endif
@@ -304,7 +308,11 @@ enum {
 
 CV_INLINE  int  cvRound( double value )
 {
+<<<<<<< HEAD
 #if (defined _MSC_VER && defined _M_X64) || (defined __GNUC__ && defined __x86_64__ && defined __SSE2__ && !defined __APPLE__)
+=======
+#if (defined _MSC_VER && defined _M_X64) || (defined __GNUC__ && defined __x86_64__ && __SSE2__ && !defined __APPLE__)
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     __m128d t = _mm_set_sd( value );
     return _mm_cvtsd_si32(t);
 #elif defined _MSC_VER && defined _M_IX86

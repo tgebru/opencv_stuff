@@ -12,7 +12,10 @@
  * Adapted for FLANN by Marius Muja
  */
 
+<<<<<<< HEAD
 #include "defines.h"
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 #include <stdexcept>
 #include <ostream>
 #include <typeinfo>
@@ -47,10 +50,14 @@ struct base_any_policy
     virtual ::size_t get_size() = 0;
     virtual const std::type_info& type() = 0;
     virtual void print(std::ostream& out, void* const* src) = 0;
+<<<<<<< HEAD
 
 #ifdef OPENCV_CAN_BREAK_BINARY_COMPATIBILITY
     virtual ~base_any_policy() {}
 #endif
+=======
+    virtual ~base_any_policy() {}
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 };
 
 template<typename T>
@@ -99,6 +106,7 @@ struct big_any_policy : typed_base_any_policy<T>
     virtual void print(std::ostream& out, void* const* src) { out << *reinterpret_cast<T const*>(*src); }
 };
 
+<<<<<<< HEAD
 template<> inline void big_any_policy<flann_centers_init_t>::print(std::ostream& out, void* const* src)
 {
     out << int(*reinterpret_cast<flann_centers_init_t const*>(*src));
@@ -109,6 +117,8 @@ template<> inline void big_any_policy<flann_algorithm_t>::print(std::ostream& ou
     out << int(*reinterpret_cast<flann_algorithm_t const*>(*src));
 }
 
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 template<typename T>
 struct choose_policy
 {

@@ -221,7 +221,11 @@ public:
 
     static Ptr<GlFont> get(const std::string& family, int height = 12, Weight weight = WEIGHT_NORMAL, Style style = STYLE_NORMAL);
 
+<<<<<<< HEAD
     void draw(const char* str, int len) const;
+=======
+    void draw(const char* str, size_t len) const;
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
     inline const std::string& family() const { return family_; }
     inline int height() const { return height_; }

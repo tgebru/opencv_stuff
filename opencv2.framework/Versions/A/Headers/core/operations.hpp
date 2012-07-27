@@ -2642,6 +2642,7 @@ template<typename _Tp> inline Ptr<_Tp>::operator const _Tp*() const { return obj
 
 template<typename _Tp> inline bool Ptr<_Tp>::empty() const { return obj == 0; }
 
+<<<<<<< HEAD
 template<typename _Tp> template<typename _Tp2> Ptr<_Tp>::Ptr(const Ptr<_Tp2>& p)
     : obj(0), refcount(0)
 {
@@ -2657,11 +2658,14 @@ template<typename _Tp> template<typename _Tp2> Ptr<_Tp>::Ptr(const Ptr<_Tp2>& p)
     addref();
 }
 
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 template<typename _Tp> template<typename _Tp2> inline Ptr<_Tp2> Ptr<_Tp>::ptr()
 {
     Ptr<_Tp2> p;
     if( !obj )
         return p;
+<<<<<<< HEAD
 
     _Tp2* obj_casted = dynamic_cast<_Tp2*>(obj);
     if (!obj_casted)
@@ -2671,6 +2675,11 @@ template<typename _Tp> template<typename _Tp2> inline Ptr<_Tp2> Ptr<_Tp>::ptr()
         CV_XADD(refcount, 1);
 
     p.obj = obj_casted;
+=======
+    if( refcount )
+        CV_XADD(refcount, 1);
+    p.obj = dynamic_cast<_Tp2*>(obj);
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     p.refcount = refcount;
     return p;
 }
@@ -2680,6 +2689,7 @@ template<typename _Tp> template<typename _Tp2> inline const Ptr<_Tp2> Ptr<_Tp>::
     Ptr<_Tp2> p;
     if( !obj )
         return p;
+<<<<<<< HEAD
 
     _Tp2* obj_casted = dynamic_cast<_Tp2*>(obj);
     if (!obj_casted)
@@ -2689,6 +2699,11 @@ template<typename _Tp> template<typename _Tp2> inline const Ptr<_Tp2> Ptr<_Tp>::
         CV_XADD(refcount, 1);
 
     p.obj = obj_casted;
+=======
+    if( refcount )
+        CV_XADD(refcount, 1);
+    p.obj = dynamic_cast<_Tp2*>(obj);
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     p.refcount = refcount;
     return p;
 }
@@ -3869,6 +3884,7 @@ template<typename _Tp> inline Ptr<_Tp> Algorithm::create(const string& name)
     return _create(name).ptr<_Tp>();
 }
 
+<<<<<<< HEAD
 template<typename _Tp>
 inline void Algorithm::set(const char* _name, const Ptr<_Tp>& value)
 {
@@ -3885,6 +3901,8 @@ inline void Algorithm::set(const string& _name, const Ptr<_Tp>& value)
     this->set<_Tp>(_name.c_str(), value);
 }
 
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 template<typename _Tp> inline typename ParamType<_Tp>::member_type Algorithm::get(const string& _name) const
 {
     typename ParamType<_Tp>::member_type value;
@@ -3899,6 +3917,7 @@ template<typename _Tp> inline typename ParamType<_Tp>::member_type Algorithm::ge
     return value;
 }
 
+<<<<<<< HEAD
 template<typename _Tp, typename _Base> inline void AlgorithmInfo::addParam(Algorithm& algo, const char* parameter,
                   Ptr<_Tp>& value, bool readOnly, Ptr<_Tp> (Algorithm::*getter)(), void (Algorithm::*setter)(const Ptr<_Tp>&),
                   const string& help)
@@ -3917,6 +3936,8 @@ template<typename _Tp> inline void AlgorithmInfo::addParam(Algorithm& algo, cons
               (Algorithm::Getter)getter, (Algorithm::Setter)setter, help);
 }
 
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 }
 
 #endif // __cplusplus

@@ -47,7 +47,11 @@
 #include "opencv2/opencv_modules.hpp"
 
 #ifdef HAVE_OPENCV_GPU
+<<<<<<< HEAD
 #  include "opencv2/gpu/gpu.hpp"
+=======
+  #include "opencv2/gpu/gpu.hpp"
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 #endif
 
 namespace cv
@@ -78,11 +82,20 @@ class CV_EXPORTS PyrLkOptFlowEstimatorBase
 public:
     PyrLkOptFlowEstimatorBase() { setWinSize(Size(21, 21)); setMaxLevel(3); }
 
+<<<<<<< HEAD
     void setWinSize(Size val) { winSize_ = val; }
     Size winSize() const { return winSize_; }
 
     void setMaxLevel(int val) { maxLevel_ = val; }
     int maxLevel() const { return maxLevel_; }
+=======
+    virtual void setWinSize(Size val) { winSize_ = val; }
+    virtual Size winSize() const { return winSize_; }
+
+    virtual void setMaxLevel(int val) { maxLevel_ = val; }
+    virtual int maxLevel() const { return maxLevel_; }
+    virtual ~PyrLkOptFlowEstimatorBase() {}
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
 protected:
     Size winSize_;
@@ -99,6 +112,30 @@ public:
 };
 
 #ifdef HAVE_OPENCV_GPU
+<<<<<<< HEAD
+=======
+class CV_EXPORTS SparsePyrLkOptFlowEstimatorGpu
+        : public PyrLkOptFlowEstimatorBase, public ISparseOptFlowEstimator
+{
+public:
+    SparsePyrLkOptFlowEstimatorGpu();
+
+    virtual void run(
+            InputArray frame0, InputArray frame1, InputArray points0, InputOutputArray points1,
+            OutputArray status, OutputArray errors);
+
+    void run(const gpu::GpuMat &frame0, const gpu::GpuMat &frame1, const gpu::GpuMat &points0, gpu::GpuMat &points1,
+             gpu::GpuMat &status, gpu::GpuMat &errors);
+
+    void run(const gpu::GpuMat &frame0, const gpu::GpuMat &frame1, const gpu::GpuMat &points0, gpu::GpuMat &points1,
+             gpu::GpuMat &status);
+
+private:
+    gpu::PyrLKOpticalFlow optFlowEstimator_;
+    gpu::GpuMat frame0_, frame1_, points0_, points1_, status_, errors_;
+};
+
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 class CV_EXPORTS DensePyrLkOptFlowEstimatorGpu
         : public PyrLkOptFlowEstimatorBase, public IDenseOptFlowEstimator
 {
@@ -108,6 +145,10 @@ public:
     virtual void run(
             InputArray frame0, InputArray frame1, InputOutputArray flowX, InputOutputArray flowY,
             OutputArray errors);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 private:
     gpu::PyrLKOpticalFlow optFlowEstimator_;
     gpu::GpuMat frame0_, frame1_, flowX_, flowY_, errors_;

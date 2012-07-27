@@ -759,8 +759,12 @@ inline SVD::SVD() {}
 inline SVD::SVD( InputArray m, int flags ) { operator ()(m, flags); }
 inline void SVD::solveZ( InputArray m, OutputArray _dst )
 {
+<<<<<<< HEAD
     Mat mtx = m.getMat();
     SVD svd(mtx, (mtx.rows >= mtx.cols ? 0 : SVD::FULL_UV));
+=======
+    SVD svd(m);
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     _dst.create(svd.vt.cols, 1, svd.vt.type());
     Mat dst = _dst.getMat();
     svd.vt.row(svd.vt.rows-1).reshape(1,svd.vt.cols).copyTo(dst);

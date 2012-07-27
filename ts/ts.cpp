@@ -451,7 +451,7 @@ void TS::init( const string& modulename )
 {
     // SHIRMUNG:
     // path value should be set by user
-    setenv("OPENCV_TEST_DATA_PATH", "/Users/shirmung/Desktop/opencv/opencv_stuff/testdata/", 1);
+    setenv("OPENCV_TEST_DATA_PATH", "/Developer/OpenCVTest/testdata/", 1);
     
     char* datapath_dir = getenv("OPENCV_TEST_DATA_PATH");
 

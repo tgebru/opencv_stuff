@@ -1249,7 +1249,10 @@ public:
     ~Ptr();
     //! copy constructor. Copies the members and calls addref()
     Ptr(const Ptr& ptr);
+<<<<<<< HEAD
     template<typename _Tp2> Ptr(const Ptr<_Tp2>& ptr);
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     //! copy operator. Calls ptr.addref() and release() before copying the members
     Ptr& operator = (const Ptr& ptr);
     //! increments the reference counter
@@ -1333,9 +1336,13 @@ public:
     virtual int channels(int i=-1) const;
     virtual bool empty() const;
 
+<<<<<<< HEAD
 #ifdef OPENCV_CAN_BREAK_BINARY_COMPATIBILITY
     virtual ~_InputArray();
 #endif
+=======
+    virtual ~_InputArray();
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
     int flags;
     void* obj;
@@ -1394,9 +1401,13 @@ public:
     virtual void release() const;
     virtual void clear() const;
 
+<<<<<<< HEAD
 #ifdef OPENCV_CAN_BREAK_BINARY_COMPATIBILITY
     virtual ~_OutputArray();
 #endif
+=======
+    virtual ~_OutputArray();
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 };
 
 typedef const _InputArray& InputArray;
@@ -2126,12 +2137,20 @@ CV_EXPORTS_W void reduce(InputArray src, OutputArray dst, int dim, int rtype, in
 //! makes multi-channel array out of several single-channel arrays
 CV_EXPORTS void merge(const Mat* mv, size_t count, OutputArray dst);
 //! makes multi-channel array out of several single-channel arrays
+<<<<<<< HEAD
 CV_EXPORTS_W void merge(const vector<Mat>& mv, OutputArray dst);
+=======
+CV_EXPORTS_W void merge(InputArrayOfArrays mv, OutputArray dst);
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
 //! copies each plane of a multi-channel array to a dedicated array
 CV_EXPORTS void split(const Mat& src, Mat* mvbegin);
 //! copies each plane of a multi-channel array to a dedicated array
+<<<<<<< HEAD
 CV_EXPORTS_W void split(const Mat& m, CV_OUT vector<Mat>& mv);
+=======
+CV_EXPORTS_W void split(InputArray m, OutputArrayOfArrays mv);
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
 //! copies selected channels from the input arrays to the selected channels of the output arrays
 CV_EXPORTS void mixChannels(const Mat* src, size_t nsrcs, Mat* dst, size_t ndsts,
@@ -2261,10 +2280,17 @@ CV_EXPORTS_W bool solve(InputArray src1, InputArray src2,
 
 enum
 {
+<<<<<<< HEAD
   SORT_EVERY_ROW=0,
   SORT_EVERY_COLUMN=1,
   SORT_ASCENDING=0,
   SORT_DESCENDING=16
+=======
+	SORT_EVERY_ROW=0,
+	SORT_EVERY_COLUMN=1,
+	SORT_ASCENDING=0,
+	SORT_DESCENDING=16
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 };
 
 //! sorts independently each matrix row or each matrix column
@@ -2287,12 +2313,21 @@ CV_EXPORTS_W bool eigen(InputArray src, bool computeEigenvectors,
 
 enum
 {
+<<<<<<< HEAD
   COVAR_SCRAMBLED=0,
   COVAR_NORMAL=1,
   COVAR_USE_AVG=2,
   COVAR_SCALE=4,
   COVAR_ROWS=8,
   COVAR_COLS=16
+=======
+	COVAR_SCRAMBLED=0,
+	COVAR_NORMAL=1,
+	COVAR_USE_AVG=2,
+	COVAR_SCALE=4,
+	COVAR_ROWS=8,
+	COVAR_COLS=16
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 };
 
 //! computes covariation matrix of a set of samples
@@ -2551,6 +2586,16 @@ CV_EXPORTS_W void polylines(InputOutputArray img, InputArrayOfArrays pts,
                             bool isClosed, const Scalar& color,
                             int thickness=1, int lineType=8, int shift=0 );
 
+<<<<<<< HEAD
+=======
+//! draws contours in the image
+CV_EXPORTS_W void drawContours( InputOutputArray image, InputArrayOfArrays contours,
+                              int contourIdx, const Scalar& color,
+                              int thickness=1, int lineType=8,
+                              InputArray hierarchy=noArray(),
+                              int maxLevel=INT_MAX, Point offset=Point() );
+
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 //! clips the line segment by the rectangle Rect(0, 0, imgSize.width, imgSize.height)
 CV_EXPORTS bool clipLine(Size imgSize, CV_IN_OUT Point& pt1, CV_IN_OUT Point& pt2);
 
@@ -3984,7 +4029,11 @@ public:
     //! closes the file and releases all the memory buffers
     CV_WRAP virtual void release();
     //! closes the file, releases all the memory buffers and returns the text string
+<<<<<<< HEAD
     CV_WRAP string releaseAndGetString();
+=======
+    CV_WRAP virtual string releaseAndGetString();
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
     //! returns the first element of the top-level mapping
     CV_WRAP FileNode getFirstTopLevelNode() const;
@@ -4321,7 +4370,10 @@ public:
     CV_WRAP_AS(setMat) void set(const string& name, const Mat& value);
     CV_WRAP_AS(setMatVector) void set(const string& name, const vector<Mat>& value);
     CV_WRAP_AS(setAlgorithm) void set(const string& name, const Ptr<Algorithm>& value);
+<<<<<<< HEAD
     template<typename _Tp> void set(const string& name, const Ptr<_Tp>& value);
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
     void set(const char* name, int value);
     void set(const char* name, double value);
@@ -4330,7 +4382,10 @@ public:
     void set(const char* name, const Mat& value);
     void set(const char* name, const vector<Mat>& value);
     void set(const char* name, const Ptr<Algorithm>& value);
+<<<<<<< HEAD
     template<typename _Tp> void set(const char* name, const Ptr<_Tp>& value);
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
     CV_WRAP string paramHelp(const string& name) const;
     int paramType(const char* name) const;
@@ -4407,6 +4462,7 @@ public:
                   Ptr<Algorithm> (Algorithm::*getter)()=0,
                   void (Algorithm::*setter)(const Ptr<Algorithm>&)=0,
                   const string& help=string());
+<<<<<<< HEAD
     template<typename _Tp, typename _Base> void addParam(Algorithm& algo, const char* name,
                   Ptr<_Tp>& value, bool readOnly=false,
                   Ptr<_Tp> (Algorithm::*getter)()=0,
@@ -4417,6 +4473,8 @@ public:
                   Ptr<_Tp> (Algorithm::*getter)()=0,
                   void (Algorithm::*setter)(const Ptr<_Tp>&)=0,
                   const string& help=string());
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 protected:
     AlgorithmInfoData* data;
     void set(Algorithm* algo, const char* name, int argType,

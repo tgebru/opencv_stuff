@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/opencv/!svn/ver/8618/trunk/opencv/modules/calib3d/test
+END
+test_cameracalibration_badarg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_cameracalibration_badarg.cpp
+END
+test_cameracalibration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/opencv/!svn/ver/8618/trunk/opencv/modules/calib3d/test/test_cameracalibration.cpp
+END
+test_chesscorners_badarg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/opencv/!svn/ver/4959/trunk/opencv/modules/calib3d/test/test_chesscorners_badarg.cpp
+END
+test_chesscorners.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/opencv/!svn/ver/8618/trunk/opencv/modules/calib3d/test/test_chesscorners.cpp
+END
+test_precomp.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_precomp.cpp
+END
+test_cornerssubpix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_cornerssubpix.cpp
+END
+test_affine3d_estimator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_affine3d_estimator.cpp
+END
+test_chesscorners_timing.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/opencv/!svn/ver/8291/trunk/opencv/modules/calib3d/test/test_chesscorners_timing.cpp
+END
+test_fundam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/opencv/!svn/ver/7691/trunk/opencv/modules/calib3d/test/test_fundam.cpp
+END
+test_compose_rt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/opencv/!svn/ver/8618/trunk/opencv/modules/calib3d/test/test_compose_rt.cpp
+END
+test_precomp.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/opencv/!svn/ver/8606/trunk/opencv/modules/calib3d/test/test_precomp.hpp
+END
+test_stereomatching.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/opencv/!svn/ver/8618/trunk/opencv/modules/calib3d/test/test_stereomatching.cpp
+END
+test_homography.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/opencv/!svn/ver/8618/trunk/opencv/modules/calib3d/test/test_homography.cpp
+END
+test_main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_main.cpp
+END
+test_chessboardgenerator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_chessboardgenerator.cpp
+END
+test_cameracalibration_artificial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/opencv/!svn/ver/8618/trunk/opencv/modules/calib3d/test/test_cameracalibration_artificial.cpp
+END
+test_reproject_image_to_3d.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_reproject_image_to_3d.cpp
+END
+test_undistort_points.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/7260/trunk/opencv/modules/calib3d/test/test_undistort_points.cpp
+END
+test_chessboardgenerator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_chessboardgenerator.hpp
+END
+test_undistort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_undistort.cpp
+END
+test_undistort_badarg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_undistort_badarg.cpp
+END
+test_solvepnp_ransac.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/opencv/!svn/ver/8618/trunk/opencv/modules/calib3d/test/test_solvepnp_ransac.cpp
+END
+test_posit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/opencv/!svn/ver/4683/trunk/opencv/modules/calib3d/test/test_posit.cpp
+END

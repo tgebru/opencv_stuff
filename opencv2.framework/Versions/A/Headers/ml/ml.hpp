@@ -510,7 +510,11 @@ public:
                             CvParamGrid degreeGrid = CvSVM::get_default_grid(CvSVM::DEGREE),
                             bool balanced=false);
     CV_WRAP virtual float predict( const cv::Mat& sample, bool returnDFVal=false ) const;
+<<<<<<< HEAD
     CV_WRAP_AS(predict_all) void predict( cv::InputArray samples, cv::OutputArray results ) const;
+=======
+    CV_WRAP_AS(predict_all) virtual void predict( cv::InputArray samples, cv::OutputArray results ) const;
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 #endif
 
     CV_WRAP virtual int get_support_vector_count() const;
@@ -2042,6 +2046,12 @@ public:
     const CvMat* get_responses();
     const CvMat* get_missing() const;
 
+<<<<<<< HEAD
+=======
+    void set_header_lines_number( int n );
+    int get_header_lines_number() const;
+
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     void set_response_idx( int idx ); // old response become predictors, new response_idx = idx
                                       // if idx < 0 there will be no response
     int get_response_idx() const;
@@ -2093,6 +2103,11 @@ protected:
     CvMat* var_idx_out; // mat
     CvMat* var_types_out; // mat
 
+<<<<<<< HEAD
+=======
+    int header_lines_number;
+
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     int response_idx;
 
     int train_sample_count;

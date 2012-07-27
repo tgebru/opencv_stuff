@@ -51,7 +51,10 @@
 #if defined _MSC_VER && _MSC_VER >= 1200
 #pragma warning( disable: 4714 ) //__forceinline is not inlined
 #pragma warning( disable: 4127 ) //conditional expression is constant
+<<<<<<< HEAD
 #pragma warning( disable: 4244 ) //conversion from '__int64' to 'int', possible loss of data
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 #endif
 
 namespace cv

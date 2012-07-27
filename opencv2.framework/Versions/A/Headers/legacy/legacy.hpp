@@ -252,6 +252,7 @@ CVAPI(void)  cvCalcImageHomography( float* line, CvPoint3D32f* center,
                                     float* intrinsic, float* homography );
 
 /****************************************************************************************\
+<<<<<<< HEAD
 *                           Additional operations on Subdivisions                        *
 \****************************************************************************************/
 
@@ -273,6 +274,8 @@ CV_INLINE double icvSqDist2D32f( CvPoint2D32f pt1, CvPoint2D32f pt2 )
 
 
 /****************************************************************************************\
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 *                           More operations on sequences                                 *
 \****************************************************************************************/
 
@@ -2946,6 +2949,77 @@ CVAPI(void) cvPyrSegmentation( IplImage* src, IplImage* dst,
 *                              Planar subdivisions                                       *
 \****************************************************************************************/
 
+<<<<<<< HEAD
+=======
+typedef size_t CvSubdiv2DEdge;
+
+#define CV_QUADEDGE2D_FIELDS()     \
+    int flags;                     \
+    struct CvSubdiv2DPoint* pt[4]; \
+    CvSubdiv2DEdge  next[4];
+
+#define CV_SUBDIV2D_POINT_FIELDS()\
+    int            flags;      \
+    CvSubdiv2DEdge first;      \
+    CvPoint2D32f   pt;         \
+    int id;
+
+#define CV_SUBDIV2D_VIRTUAL_POINT_FLAG (1 << 30)
+
+typedef struct CvQuadEdge2D
+{
+    CV_QUADEDGE2D_FIELDS()
+}
+CvQuadEdge2D;
+
+typedef struct CvSubdiv2DPoint
+{
+    CV_SUBDIV2D_POINT_FIELDS()
+}
+CvSubdiv2DPoint;
+
+#define CV_SUBDIV2D_FIELDS()    \
+    CV_GRAPH_FIELDS()           \
+    int  quad_edges;            \
+    int  is_geometry_valid;     \
+    CvSubdiv2DEdge recent_edge; \
+    CvPoint2D32f  topleft;      \
+    CvPoint2D32f  bottomright;
+
+typedef struct CvSubdiv2D
+{
+    CV_SUBDIV2D_FIELDS()
+}
+CvSubdiv2D;
+
+typedef enum CvSubdiv2DPointLocation
+{
+    CV_PTLOC_ERROR = -2,
+    CV_PTLOC_OUTSIDE_RECT = -1,
+    CV_PTLOC_INSIDE = 0,
+    CV_PTLOC_VERTEX = 1,
+    CV_PTLOC_ON_EDGE = 2
+}
+CvSubdiv2DPointLocation;
+
+typedef enum CvNextEdgeType
+{
+    CV_NEXT_AROUND_ORG   = 0x00,
+    CV_NEXT_AROUND_DST   = 0x22,
+    CV_PREV_AROUND_ORG   = 0x11,
+    CV_PREV_AROUND_DST   = 0x33,
+    CV_NEXT_AROUND_LEFT  = 0x13,
+    CV_NEXT_AROUND_RIGHT = 0x31,
+    CV_PREV_AROUND_LEFT  = 0x20,
+    CV_PREV_AROUND_RIGHT = 0x02
+}
+CvNextEdgeType;
+
+/* get the next edge with the same origin point (counterwise) */
+#define  CV_SUBDIV2D_NEXT_EDGE( edge )  (((CvQuadEdge2D*)((edge) & ~3))->next[(edge)&3])
+
+
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 /* Initializes Delaunay triangulation */
 CVAPI(void)  cvInitSubdivDelaunay2D( CvSubdiv2D* subdiv, CvRect rect );
 
@@ -3029,6 +3103,31 @@ CV_INLINE  CvSubdiv2DPoint*  cvSubdiv2DEdgeDst( CvSubdiv2DEdge edge )
     return (CvSubdiv2DPoint*)e->pt[(edge + 2) & 3];
 }
 
+<<<<<<< HEAD
+=======
+/****************************************************************************************\
+*                           Additional operations on Subdivisions                        *
+\****************************************************************************************/
+
+// paints voronoi diagram: just demo function
+CVAPI(void)  icvDrawMosaic( CvSubdiv2D* subdiv, IplImage* src, IplImage* dst );
+
+// checks planar subdivision for correctness. It is not an absolute check,
+// but it verifies some relations between quad-edges
+CVAPI(int)   icvSubdiv2DCheck( CvSubdiv2D* subdiv );
+
+// returns squared distance between two 2D points with floating-point coordinates.
+CV_INLINE double icvSqDist2D32f( CvPoint2D32f pt1, CvPoint2D32f pt2 )
+{
+    double dx = pt1.x - pt2.x;
+    double dy = pt1.y - pt2.y;
+
+    return dx*dx + dy*dy;
+}
+
+
+
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
 CV_INLINE  double  cvTriangleArea( CvPoint2D32f a, CvPoint2D32f b, CvPoint2D32f c )
 {

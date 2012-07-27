@@ -76,7 +76,13 @@ public:
     virtual void reset();
     virtual Mat nextFrame();
 
+<<<<<<< HEAD
     int frameCount() { return static_cast<int>(reader_.get(CV_CAP_PROP_FRAME_COUNT)); }
+=======
+    int width() { return static_cast<int>(reader_.get(CV_CAP_PROP_FRAME_WIDTH)); }
+    int height() { return static_cast<int>(reader_.get(CV_CAP_PROP_FRAME_HEIGHT)); }
+    int count() { return static_cast<int>(reader_.get(CV_CAP_PROP_FRAME_COUNT)); }
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     double fps() { return reader_.get(CV_CAP_PROP_FPS); }
 
 private:

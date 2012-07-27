@@ -310,6 +310,7 @@ protected:
 typedef ORB OrbFeatureDetector;
 typedef ORB OrbDescriptorExtractor;
 
+<<<<<<< HEAD
 /*!
   FREAK implementation
 */
@@ -399,6 +400,8 @@ protected:
     OrientationPair orientationPairs[NB_ORIENPAIRS];
 };
 
+=======
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
 /*!
  Maximal Stable Extremal Regions class.
@@ -553,7 +556,11 @@ protected:
   };
 
   virtual void detectImpl( const Mat& image, vector<KeyPoint>& keypoints, const Mat& mask=Mat() ) const;
+<<<<<<< HEAD
   virtual void findBlobs(const Mat &image, const Mat &binaryImage, vector<Center> &centers) const;
+=======
+  virtual void findBlobs(const cv::Mat &image, const cv::Mat &binaryImage, std::vector<Center> &centers) const;
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
   Params params;
 };
@@ -603,7 +610,11 @@ public:
 
     // TODO implement read/write
     virtual bool empty() const;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     AlgorithmInfo* info() const;
 
 protected:
@@ -641,8 +652,13 @@ protected:
 class CV_EXPORTS AdjusterAdapter: public FeatureDetector
 {
 public:
+<<<<<<< HEAD
     /** pure virtual interface
      */
+=======
+	/** pure virtual interface
+	 */
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
     virtual ~AdjusterAdapter() {}
     /** too few features were detected so, adjust the detector params accordingly
      * \param min the minimum number of desired features
@@ -682,7 +698,11 @@ public:
     /** \param adjuster an AdjusterAdapter that will do the detection and parameter adjustment
      *  \param max_features the maximum desired number of features
      *  \param max_iters the maximum number of times to try to adjust the feature detector params
+<<<<<<< HEAD
      *          for the FastAdjuster this can be high, but with Star or Surf this can get time consuming
+=======
+     * 			for the FastAdjuster this can be high, but with Star or Surf this can get time consuming
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
      *  \param min_features the minimum desired features
      */
     DynamicAdaptedFeatureDetector( const Ptr<AdjusterAdapter>& adjuster, int min_features=400, int max_features=500, int max_iters=5 );
@@ -693,8 +713,13 @@ protected:
     virtual void detectImpl( const Mat& image, vector<KeyPoint>& keypoints, const Mat& mask=Mat() ) const;
 
 private:
+<<<<<<< HEAD
     DynamicAdaptedFeatureDetector& operator=(const DynamicAdaptedFeatureDetector&);
     DynamicAdaptedFeatureDetector(const DynamicAdaptedFeatureDetector&);
+=======
+	DynamicAdaptedFeatureDetector& operator=(const DynamicAdaptedFeatureDetector&);
+	DynamicAdaptedFeatureDetector(const DynamicAdaptedFeatureDetector&);
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
     int escape_iters_;
     int min_features_, max_features_;
@@ -792,7 +817,11 @@ public:
     virtual bool empty() const;
 
 protected:
+<<<<<<< HEAD
     virtual void computeImpl( const Mat& image, vector<KeyPoint>& keypoints, Mat& descriptors ) const;
+=======
+	virtual void computeImpl( const Mat& image, vector<KeyPoint>& keypoints, Mat& descriptors ) const;
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
     Ptr<DescriptorExtractor> descriptorExtractor;
 };
@@ -962,7 +991,11 @@ class CV_EXPORTS_W DescriptorMatcher : public Algorithm
 public:
     virtual ~DescriptorMatcher();
 
+<<<<<<< HEAD
     /*
+=======
+	/*
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
      * Add descriptors to train descriptor collection.
      * descriptors      Descriptors to add. Each descriptors[i] is a descriptors set from one image.
      */
@@ -1078,7 +1111,11 @@ protected:
     static bool isMaskedOut( const vector<Mat>& masks, int queryIdx );
 
     static Mat clone_op( Mat m ) { return m.clone(); }
+<<<<<<< HEAD
     void checkMasks( const vector<Mat>& masks, int queryDescriptorsCount ) const;
+=======
+	void checkMasks( const vector<Mat>& masks, int queryDescriptorsCount ) const;
+>>>>>>> 803c418f17285f8d2e733f327d42da97a9c848c5
 
     // Collection of descriptors from train images.
     vector<Mat> trainDescCollection;
