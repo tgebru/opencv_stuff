@@ -15,9 +15,9 @@
 		7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */; };
 		7A023B6815BA54D00021A6DD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6615BA54D00021A6DD /* MainStoryboard_iPhone.storyboard */; };
 		7A023B6B15BA54D00021A6DD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */; };
-		C173294B15BB0AF100C367B9 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C173294A15BB0AF100C367B9 /* opencv2.framework */; };
 		C173294F15BB11BF00C367B9 /* OpenCVTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C173294D15BB11BF00C367B9 /* OpenCVTestViewController.mm */; };
 		C178B7D015BE15D9008E0CB6 /* CVImageConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = C178B7CF15BE15D9008E0CB6 /* CVImageConverter.mm */; };
+		C184A91E15C2F2F100F50466 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C184A91D15C2F2F100F50466 /* opencv2.framework */; };
 		C1C2EBEA15BDA3EC0069C734 /* acircles1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C2E7BC15BDA3EB0069C734 /* acircles1.jpg */; };
 		C1C2EBEB15BDA3EC0069C734 /* acircles2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C2E7BD15BDA3EB0069C734 /* acircles2.jpg */; };
 		C1C2EBEC15BDA3EC0069C734 /* acircles3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C2E7BE15BDA3EB0069C734 /* acircles3.jpg */; };
@@ -1055,11 +1055,11 @@
 		7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = OpenCVTestAppDelegate.m; sourceTree = "<group>"; };
 		7A023B6715BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		7A023B6A15BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		C173294A15BB0AF100C367B9 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../opencv/opencv2.framework; sourceTree = "<group>"; };
 		C173294C15BB11BF00C367B9 /* OpenCVTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVTestViewController.h; sourceTree = "<group>"; };
 		C173294D15BB11BF00C367B9 /* OpenCVTestViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = OpenCVTestViewController.mm; sourceTree = "<group>"; };
 		C178B7CE15BE15D9008E0CB6 /* CVImageConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConverter.h; sourceTree = "<group>"; };
 		C178B7CF15BE15D9008E0CB6 /* CVImageConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVImageConverter.mm; sourceTree = "<group>"; };
+		C184A91D15C2F2F100F50466 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		C1C2E7BC15BDA3EB0069C734 /* acircles1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acircles1.jpg; sourceTree = "<group>"; };
 		C1C2E7BD15BDA3EB0069C734 /* acircles2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acircles2.jpg; sourceTree = "<group>"; };
 		C1C2E7BE15BDA3EB0069C734 /* acircles3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = acircles3.jpg; sourceTree = "<group>"; };
@@ -2095,7 +2095,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C173294B15BB0AF100C367B9 /* opencv2.framework in Frameworks */,
+				C184A91E15C2F2F100F50466 /* opencv2.framework in Frameworks */,
 				7A023B5515BA54D00021A6DD /* UIKit.framework in Frameworks */,
 				7A023B5715BA54D00021A6DD /* Foundation.framework in Frameworks */,
 				7A023B5915BA54D00021A6DD /* CoreGraphics.framework in Frameworks */,
@@ -2128,7 +2128,7 @@
 		7A023B5315BA54D00021A6DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C173294A15BB0AF100C367B9 /* opencv2.framework */,
+				C184A91D15C2F2F100F50466 /* opencv2.framework */,
 				7A023B5415BA54D00021A6DD /* UIKit.framework */,
 				7A023B5615BA54D00021A6DD /* Foundation.framework */,
 				7A023B5815BA54D00021A6DD /* CoreGraphics.framework */,
