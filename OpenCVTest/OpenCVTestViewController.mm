@@ -8,6 +8,7 @@
 
 #import "OpenCVTestViewController.h"
 #include "test_precomp.hpp"
+#include "perf_precomp.hpp"
 
 @implementation OpenCVTestViewController
 
@@ -23,12 +24,15 @@
         NSString *resultsString = [NSString stringWithContentsOfFile:[self resultsFilePath] encoding:NSUTF8StringEncoding error:nil];
         NSLog(@"%@", resultsString);
     } else {
-        cvtest::TS::ptr()->init("cv");
-        
         int argc = 0;
         char **argv = NULL;
-        ::testing::InitGoogleTest(&argc, argv);
         
+        cvtest::TS::ptr()->init("cv");
+        
+        ::perf::Regression::Init("core");
+        ::perf::TestBase::Init(argc, argv);
+        ::testing::InitGoogleTest(&argc, argv);
+
         NSString *objCString = [NSString stringWithFormat:@"xml:%@", [self resultsFilePath]];
         std::string cString = [objCString cStringUsingEncoding:[NSString defaultCStringEncoding]];
         ::testing::GTEST_FLAG(output) = cString;
