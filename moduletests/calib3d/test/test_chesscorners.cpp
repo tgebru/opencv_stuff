@@ -1,6 +1,3 @@
-// SHIRMUNG:
-// changed file to .mm and had to resolve a lot of namespace issues
-
 /*M///////////////////////////////////////////////////////////////////////////////////////
 //
 //  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
@@ -48,14 +45,14 @@
 #include <limits>
 #include <numeric>
 
-#include "CVImageConverter.h"
+#include "CWrapper.h"
 
 using namespace std;
 using namespace cv;
 
 #define _L2_ERR
 
-void show_points( const Mat& gray, const Mat& u, const vector<Point2f>& v, cv::Size pattern_size, bool was_found )
+void show_points( const Mat& gray, const Mat& u, const vector<Point2f>& v, Size pattern_size, bool was_found )
 {
     Mat rgb( gray.size(), CV_8U);
     merge(vector<Mat>(3, gray), rgb);
@@ -226,9 +223,7 @@ void CV_ChessboardDetectorTest::run_batch( const string& filename )
         // SHIRMUNG:
         // loading image as UIImage and converting to cv::Mat
         // "int flags=0, the loaded image is forced to be grayscale"
-        UIImage *grayImage = [CVImageConverter convertUIImageToGrayScale:[UIImage imageWithContentsOfFile:[NSString stringWithCString:(folder + img_file).c_str() encoding:[NSString defaultCStringEncoding]]]];
-        Mat gray;
-        [CVImageConverter CVMat:gray FromUIImage:grayImage error:NULL];
+        Mat gray = wrapCVImageConverter((folder + img_file).c_str(), 0);
 
         //Mat gray = imread( folder + img_file, 0);
 
@@ -249,7 +244,7 @@ void CV_ChessboardDetectorTest::run_batch( const string& filename )
             fs1.release();
         }
         size_t count_exp = static_cast<size_t>(expected.cols * expected.rows);
-        cv::Size pattern_size = expected.size();
+        Size pattern_size = expected.size();
 
         vector<Point2f> v;
         bool result = false;
@@ -290,7 +285,7 @@ void CV_ChessboardDetectorTest::run_batch( const string& filename )
             max_rough_error = MAX( max_rough_error, err );
 #endif
             if( pattern == CHESSBOARD )
-                cornerSubPix( gray, v, cv::Size(5, 5), cv::Size(-1,-1), TermCriteria(TermCriteria::EPS|TermCriteria::MAX_ITER, 30, 0.1));
+                cornerSubPix( gray, v, Size(5, 5), Size(-1,-1), TermCriteria(TermCriteria::EPS|TermCriteria::MAX_ITER, 30, 0.1));
             //find4QuadCornerSubpix(gray, v, Size(5, 5));
             show_points( gray, expected, v, pattern_size, result  );
 #ifndef WRITE_POINTS
@@ -325,7 +320,7 @@ void CV_ChessboardDetectorTest::run_batch( const string& filename )
     ts->printf(cvtest::TS::LOG, "Average error is %f\n", sum_error);
 }
 
-double calcErrorMinError(const cv::Size& cornSz, const vector<Point2f>& corners_found, const vector<Point2f>& corners_generated)
+double calcErrorMinError(const Size& cornSz, const vector<Point2f>& corners_found, const vector<Point2f>& corners_generated)
 {
     Mat m1(cornSz, CV_32FC2, (Point2f*)&corners_generated[0]);
     Mat m2; flip(m1, m2, 0);
@@ -339,10 +334,10 @@ double calcErrorMinError(const cv::Size& cornSz, const vector<Point2f>& corners_
     return min(min1, min2);
 }
 
-bool validateData(const ChessBoardGenerator& cbg, const cv::Size& imgSz,
+bool validateData(const ChessBoardGenerator& cbg, const Size& imgSz,
                   const vector<Point2f>& corners_generated)
 {
-    cv::Size cornersSize = cbg.cornersSize();
+    Size cornersSize = cbg.cornersSize();
     Mat_<Point2f> mat(cornersSize.height, cornersSize.width, (Point2f*)&corners_generated[0]);
 
     double minNeibDist = std::numeric_limits<double>::max();
@@ -382,9 +377,9 @@ bool CV_ChessboardDetectorTest::checkByGenerator()
     //cv::DefaultRngAuto dra;
     //theRNG() = *ts->get_rng();
 
-    Mat bg(cv::Size(800, 600), CV_8UC3, Scalar::all(255));
+    Mat bg(Size(800, 600), CV_8UC3, Scalar::all(255));
     randu(bg, Scalar::all(0), Scalar::all(255));
-    GaussianBlur(bg, bg, cv::Size(7,7), 3.0);
+    GaussianBlur(bg, bg, Size(7,7), 3.0);
 
     Mat_<float> camMat(3, 3);
     camMat << 300.f, 0.f, bg.cols/2.f, 0, 300.f, bg.rows/2.f, 0.f, 0.f, 1.f;
@@ -392,7 +387,7 @@ bool CV_ChessboardDetectorTest::checkByGenerator()
     Mat_<float> distCoeffs(1, 5);
     distCoeffs << 1.2f, 0.2f, 0.f, 0.f, 0.f;
 
-    const cv::Size sizes[] = { cv::Size(6, 6), cv::Size(8, 6), cv::Size(11, 12),  cv::Size(5, 4) };
+    const Size sizes[] = { Size(6, 6), Size(8, 6), Size(11, 12),  Size(5, 4) };
     const size_t sizes_num = sizeof(sizes)/sizeof(sizes[0]);
     const int test_num = 16;
     int progress = 0;
@@ -440,16 +435,16 @@ bool CV_ChessboardDetectorTest::checkByGenerator()
     /* ***** negative ***** */
     {
         vector<Point2f> corners_found;
-        bool found = findChessboardCorners(bg, cv::Size(8, 7), corners_found);
+        bool found = findChessboardCorners(bg, Size(8, 7), corners_found);
         if (found)
             res = false;
 
-        ChessBoardGenerator cbg(cv::Size(8, 7));
+        ChessBoardGenerator cbg(Size(8, 7));
 
         vector<Point2f> cg;
         Mat cb = cbg(bg, camMat, distCoeffs, cg);
 
-        found = findChessboardCorners(cb, cv::Size(3, 4), corners_found);
+        found = findChessboardCorners(cb, Size(3, 4), corners_found);
         if (found)
             res = false;
 
@@ -464,8 +459,8 @@ bool CV_ChessboardDetectorTest::checkByGenerator()
         if (found)
             res = false;
 
-        vector< vector<cv::Point> > cnts(1);
-        vector<cv::Point>& cnt = cnts[0];
+        vector< vector<Point> > cnts(1);
+        vector<Point>& cnt = cnts[0];
         cnt.push_back(cg[  0]); cnt.push_back(cg[0+2]);
         cnt.push_back(cg[7+0]); cnt.push_back(cg[7+2]);
         cv::drawContours(cb, cnts, -1, Scalar::all(128), CV_FILLED);

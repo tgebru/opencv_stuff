@@ -1,6 +1,3 @@
-// SHIRMUNG:
-// changed file to .mm and had to resolve a lot of namespace issues
-
 /*M///////////////////////////////////////////////////////////////////////////////////////
 //
 //  IMPORTANT: READ BEFORE DOWNLOADING, COPYING, INSTALLING OR USING.
@@ -52,7 +49,7 @@
 #include <limits>
 #include <cstdio>
 
-#include "CVImageConverter.h"
+#include "CWrapper.h"
 
 using namespace std;
 using namespace cv;
@@ -88,7 +85,7 @@ void computeTextureBasedMasks( const Mat& _img, Mat* texturelessMask, Mat* textu
     }
     Mat dxI; Sobel( img, dxI, CV_32FC1, 1, 0, 3 );
     Mat dxI2; pow( dxI / 8.f/*normalize*/, 2, dxI2 );
-    Mat avgDxI2; boxFilter( dxI2, avgDxI2, CV_32FC1, cv::Size(texturelessWidth,texturelessWidth) );
+    Mat avgDxI2; boxFilter( dxI2, avgDxI2, CV_32FC1, Size(texturelessWidth,texturelessWidth) );
 
     if( texturelessMask )
         *texturelessMask = avgDxI2 < texturelessThresh;
@@ -96,7 +93,7 @@ void computeTextureBasedMasks( const Mat& _img, Mat* texturelessMask, Mat* textu
         *texturedMask = avgDxI2 >= texturelessThresh;
 }
 
-void checkTypeAndSizeOfDisp( const Mat& dispMap, const cv::Size* sz )
+void checkTypeAndSizeOfDisp( const Mat& dispMap, const Size* sz )
 {
     if( dispMap.empty() )
         CV_Error( CV_StsBadArg, "dispMap is empty" );
@@ -106,7 +103,7 @@ void checkTypeAndSizeOfDisp( const Mat& dispMap, const cv::Size* sz )
         CV_Error( CV_StsBadArg, "dispMap has incorrect size" );
 }
 
-void checkTypeAndSizeOfMask( const Mat& mask, cv::Size sz )
+void checkTypeAndSizeOfMask( const Mat& mask, Size sz )
 {
     if( mask.empty() )
         CV_Error( CV_StsBadArg, "mask is empty" );
@@ -123,7 +120,7 @@ void checkDispMapsAndUnknDispMasks( const Mat& leftDispMap, const Mat& rightDisp
     checkTypeAndSizeOfDisp( leftDispMap, 0 );
     if( !rightDispMap.empty() )
     {
-        cv::Size sz = leftDispMap.size();
+        Size sz = leftDispMap.size();
         checkTypeAndSizeOfDisp( rightDispMap, &sz );
     }
 
@@ -256,7 +253,7 @@ void computeDepthDiscontMask( const Mat& disp, Mat& depthDiscontMask, const Mat&
 /*
    Get evaluation masks excluding a border.
 */
-Mat getBorderedMask( cv::Size maskSize, int border = EVAL_IGNORE_BORDER )
+Mat getBorderedMask( Size maskSize, int border = EVAL_IGNORE_BORDER )
 {
     CV_Assert( border >= 0 );
     Mat mask(maskSize, CV_8UC1, Scalar(0));
@@ -264,7 +261,7 @@ Mat getBorderedMask( cv::Size maskSize, int border = EVAL_IGNORE_BORDER )
     if( w < 0 ||  h < 0 )
         mask.setTo(Scalar(0));
     else
-        mask( cv::Rect(cv::Point(border,border),cv::Size(w,h)) ).setTo(Scalar(255));
+        mask( Rect(Point(border,border),Size(w,h)) ).setTo(Scalar(255));
     return mask;
 }
 
@@ -274,7 +271,7 @@ Mat getBorderedMask( cv::Size maskSize, int border = EVAL_IGNORE_BORDER )
 float dispRMS( const Mat& computedDisp, const Mat& groundTruthDisp, const Mat& mask )
 {
     checkTypeAndSizeOfDisp( groundTruthDisp, 0 );
-    cv::Size sz = groundTruthDisp.size();
+    Size sz = groundTruthDisp.size();
     checkTypeAndSizeOfDisp( computedDisp, &sz );
 
     int pointsCount = sz.height*sz.width;
@@ -294,7 +291,7 @@ float badMatchPxlsFraction( const Mat& computedDisp, const Mat& groundTruthDisp,
 {
     int badThresh = cvRound(_badThresh);
     checkTypeAndSizeOfDisp( groundTruthDisp, 0 );
-    cv::Size sz = groundTruthDisp.size();
+    Size sz = groundTruthDisp.size();
     checkTypeAndSizeOfDisp( computedDisp, &sz );
 
     Mat badPxlsMap;
@@ -455,22 +452,11 @@ void CV_StereoMatchingTest::run(int)
 
         // SHIRMUNG:
         // loading image as UIImage and converting to cv::Mat
-        // "int flags=0, the loaded image is forced to be grayscale"
-        UIImage *leftImage = [UIImage imageWithContentsOfFile:[NSString stringWithCString:(datasetFullDirName + LEFT_IMG_NAME).c_str() encoding:[NSString defaultCStringEncoding]]];
-        Mat leftImg;
-        [CVImageConverter CVMat:leftImg FromUIImage:leftImage error:NULL];
-
-        UIImage *rightImage = [UIImage imageWithContentsOfFile:[NSString stringWithCString:(datasetFullDirName + RIGHT_IMG_NAME).c_str() encoding:[NSString defaultCStringEncoding]]];
-        Mat rightImg;
-        [CVImageConverter CVMat:rightImg FromUIImage:rightImage error:NULL];
-
-        UIImage *trueLeftDispImage = [CVImageConverter convertUIImageToGrayScale:[UIImage imageWithContentsOfFile:[NSString stringWithCString:(datasetFullDirName + TRUE_LEFT_DISP_NAME).c_str() encoding:[NSString defaultCStringEncoding]]]];
-        Mat trueLeftDisp;
-        [CVImageConverter CVMat:trueLeftDisp FromUIImage:trueLeftDispImage error:NULL];
-
-        UIImage *trueRightDispImage = [CVImageConverter convertUIImageToGrayScale:[UIImage imageWithContentsOfFile:[NSString stringWithCString:(datasetFullDirName + TRUE_RIGHT_DISP_NAME).c_str() encoding:[NSString defaultCStringEncoding]]]];
-        Mat trueRightDisp;
-        [CVImageConverter CVMat:trueRightDisp FromUIImage:trueRightDispImage error:NULL];
+        // "int flags=0, the loaded image is forced to be grayscale"        
+        Mat leftImg = wrapCVImageConverter((datasetFullDirName + LEFT_IMG_NAME).c_str(), 1);
+        Mat rightImg = wrapCVImageConverter((datasetFullDirName + RIGHT_IMG_NAME).c_str(), 1);
+        Mat trueLeftDisp = wrapCVImageConverter((datasetFullDirName + TRUE_LEFT_DISP_NAME).c_str(), 0);
+        Mat trueRightDisp = wrapCVImageConverter((datasetFullDirName + TRUE_RIGHT_DISP_NAME).c_str(), 0);
 
         //Mat leftImg = imread(datasetFullDirName + LEFT_IMG_NAME);
         //Mat rightImg = imread(datasetFullDirName + RIGHT_IMG_NAME);

@@ -3,10 +3,11 @@
 //  OpenCVTest
 //
 //  Created by Shirmung Bielefeld on 7/21/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012. All rights reserved.
 //
 
 #import "OpenCVTestViewController.h"
+#include "CVImageConverter.h"
 #include "test_precomp.hpp"
 #include "perf_precomp.hpp"
 
@@ -59,6 +60,20 @@
     NSString *documentsDirectory = [paths objectAtIndex:0];
     
     return [documentsDirectory stringByAppendingPathComponent:@"results.xml"];
+}
+
+cv::Mat wrapCVImageConverter(const char* fileName, int flag)
+{
+    UIImage *image = [UIImage imageWithContentsOfFile:[NSString stringWithCString:fileName encoding:[NSString defaultCStringEncoding]]];
+    
+    if (flag == 0) {
+        image = [CVImageConverter convertUIImageToGrayScale:image];
+    }
+    
+    cv::Mat mat;
+    [CVImageConverter CVMat:mat FromUIImage:image error:NULL];
+
+    return mat;
 }
 
 @end
