@@ -1,17 +1,17 @@
 //
-//  OpenCVTestViewController.mm
-//  OpenCVTest
+//  OpenCVTestsViewController.mm
+//  OpenCVTests
 //
 //  Created by Shirmung Bielefeld on 7/21/12.
 //  Copyright (c) 2012. All rights reserved.
 //
 
-#import "OpenCVTestViewController.h"
+#import "OpenCVTestsViewController.h"
 #include "CVImageConverter.h"
 #include "test_precomp.hpp"
 #include "perf_precomp.hpp"
 
-@implementation OpenCVTestViewController
+@implementation OpenCVTestsViewController
 
 - (void)viewDidLoad
 {

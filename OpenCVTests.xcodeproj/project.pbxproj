@@ -12,7 +12,7 @@
 		7A023B5915BA54D00021A6DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A023B5815BA54D00021A6DD /* CoreGraphics.framework */; };
 		7A023B5F15BA54D00021A6DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B5D15BA54D00021A6DD /* InfoPlist.strings */; };
 		7A023B6115BA54D00021A6DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6015BA54D00021A6DD /* main.m */; };
-		7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */; };
+		7A023B6515BA54D00021A6DD /* OpenCVTestsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A023B6415BA54D00021A6DD /* OpenCVTestsAppDelegate.m */; };
 		7A023B6815BA54D00021A6DD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6615BA54D00021A6DD /* MainStoryboard_iPhone.storyboard */; };
 		7A023B6B15BA54D00021A6DD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */; };
 		C127A83015C45E61008E6363 /* test_affine3d_estimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C127A81A15C45E61008E6363 /* test_affine3d_estimator.cpp */; };
@@ -31,11 +31,10 @@
 		C127A83D15C45E61008E6363 /* test_precomp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C127A82815C45E61008E6363 /* test_precomp.cpp */; };
 		C127A83E15C45E61008E6363 /* test_reproject_image_to_3d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C127A82A15C45E61008E6363 /* test_reproject_image_to_3d.cpp */; };
 		C127A83F15C45E61008E6363 /* test_solvepnp_ransac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C127A82B15C45E61008E6363 /* test_solvepnp_ransac.cpp */; };
-		C127A84015C45E61008E6363 /* test_stereomatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C127A82C15C45E61008E6363 /* test_stereomatching.cpp */; };
 		C127A84115C45E61008E6363 /* test_undistort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C127A82D15C45E61008E6363 /* test_undistort.cpp */; };
 		C127A84215C45E61008E6363 /* test_undistort_badarg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C127A82E15C45E61008E6363 /* test_undistort_badarg.cpp */; };
 		C127A84315C45E61008E6363 /* test_undistort_points.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C127A82F15C45E61008E6363 /* test_undistort_points.cpp */; };
-		C173294F15BB11BF00C367B9 /* OpenCVTestViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C173294D15BB11BF00C367B9 /* OpenCVTestViewController.mm */; };
+		C173294F15BB11BF00C367B9 /* OpenCVTestsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C173294D15BB11BF00C367B9 /* OpenCVTestsViewController.mm */; };
 		C178B7D015BE15D9008E0CB6 /* CVImageConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = C178B7CF15BE15D9008E0CB6 /* CVImageConverter.mm */; };
 		C184A91E15C2F2F100F50466 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C184A91D15C2F2F100F50466 /* opencv2.framework */; };
 		C1C2EBEA15BDA3EC0069C734 /* acircles1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C1C2E7BC15BDA3EB0069C734 /* acircles1.jpg */; };
@@ -1057,19 +1056,20 @@
 		C1DCAF2B15C6EB34003F836B /* perf_reduce.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DCAF1A15C6EB34003F836B /* perf_reduce.cpp */; };
 		C1DCAF2C15C6EB34003F836B /* perf_split.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DCAF1B15C6EB34003F836B /* perf_split.cpp */; };
 		C1DCAF2D15C6EB34003F836B /* perf_stat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DCAF1C15C6EB34003F836B /* perf_stat.cpp */; };
+		C1DCAF3C15C6F484003F836B /* test_stereomatching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DCAF3B15C6F484003F836B /* test_stereomatching.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7A023B5015BA54D00021A6DD /* OpenCVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A023B5015BA54D00021A6DD /* OpenCVTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A023B5415BA54D00021A6DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7A023B5615BA54D00021A6DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7A023B5815BA54D00021A6DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7A023B5C15BA54D00021A6DD /* OpenCVTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCVTest-Info.plist"; sourceTree = "<group>"; };
+		7A023B5C15BA54D00021A6DD /* OpenCVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCVTests-Info.plist"; sourceTree = "<group>"; };
 		7A023B5E15BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7A023B6015BA54D00021A6DD /* main.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7A023B6215BA54D00021A6DD /* OpenCVTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVTest-Prefix.pch"; sourceTree = "<group>"; };
-		7A023B6315BA54D00021A6DD /* OpenCVTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVTestAppDelegate.h; sourceTree = "<group>"; };
-		7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = OpenCVTestAppDelegate.m; sourceTree = "<group>"; };
+		7A023B6215BA54D00021A6DD /* OpenCVTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVTests-Prefix.pch"; sourceTree = "<group>"; };
+		7A023B6315BA54D00021A6DD /* OpenCVTestsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVTestsAppDelegate.h; sourceTree = "<group>"; };
+		7A023B6415BA54D00021A6DD /* OpenCVTestsAppDelegate.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = OpenCVTestsAppDelegate.m; sourceTree = "<group>"; };
 		7A023B6715BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		7A023B6A15BA54D00021A6DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C127A81A15C45E61008E6363 /* test_affine3d_estimator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_affine3d_estimator.cpp; sourceTree = "<group>"; };
@@ -1090,13 +1090,12 @@
 		C127A82915C45E61008E6363 /* test_precomp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = test_precomp.hpp; sourceTree = "<group>"; };
 		C127A82A15C45E61008E6363 /* test_reproject_image_to_3d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_reproject_image_to_3d.cpp; sourceTree = "<group>"; };
 		C127A82B15C45E61008E6363 /* test_solvepnp_ransac.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_solvepnp_ransac.cpp; sourceTree = "<group>"; };
-		C127A82C15C45E61008E6363 /* test_stereomatching.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = test_stereomatching.cpp; sourceTree = "<group>"; };
 		C127A82D15C45E61008E6363 /* test_undistort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort.cpp; sourceTree = "<group>"; };
 		C127A82E15C45E61008E6363 /* test_undistort_badarg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort_badarg.cpp; sourceTree = "<group>"; };
 		C127A82F15C45E61008E6363 /* test_undistort_points.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_undistort_points.cpp; sourceTree = "<group>"; };
 		C127A87315C47813008E6363 /* CWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWrapper.h; sourceTree = "<group>"; };
-		C173294C15BB11BF00C367B9 /* OpenCVTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVTestViewController.h; sourceTree = "<group>"; };
-		C173294D15BB11BF00C367B9 /* OpenCVTestViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = OpenCVTestViewController.mm; sourceTree = "<group>"; };
+		C173294C15BB11BF00C367B9 /* OpenCVTestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVTestsViewController.h; sourceTree = "<group>"; };
+		C173294D15BB11BF00C367B9 /* OpenCVTestsViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = OpenCVTestsViewController.mm; sourceTree = "<group>"; };
 		C178B7CE15BE15D9008E0CB6 /* CVImageConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVImageConverter.h; sourceTree = "<group>"; };
 		C178B7CF15BE15D9008E0CB6 /* CVImageConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVImageConverter.mm; sourceTree = "<group>"; };
 		C184A91D15C2F2F100F50466 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
@@ -2124,6 +2123,7 @@
 		C1DCAF1A15C6EB34003F836B /* perf_reduce.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = perf_reduce.cpp; sourceTree = "<group>"; };
 		C1DCAF1B15C6EB34003F836B /* perf_split.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = perf_split.cpp; sourceTree = "<group>"; };
 		C1DCAF1C15C6EB34003F836B /* perf_stat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = perf_stat.cpp; sourceTree = "<group>"; };
+		C1DCAF3B15C6F484003F836B /* test_stereomatching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_stereomatching.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2144,7 +2144,7 @@
 		7A023B4515BA54CF0021A6DD = {
 			isa = PBXGroup;
 			children = (
-				7A023B5A15BA54D00021A6DD /* OpenCVTest */,
+				7A023B5A15BA54D00021A6DD /* OpenCVTests */,
 				C1C2EFD115BDD9290069C734 /* ts */,
 				C1C2EFE215BDDAB80069C734 /* moduletests */,
 				C1C2E7B815BDA3EB0069C734 /* testdata */,
@@ -2156,7 +2156,7 @@
 		7A023B5115BA54D00021A6DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A023B5015BA54D00021A6DD /* OpenCVTest.app */,
+				7A023B5015BA54D00021A6DD /* OpenCVTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2172,13 +2172,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7A023B5A15BA54D00021A6DD /* OpenCVTest */ = {
+		7A023B5A15BA54D00021A6DD /* OpenCVTests */ = {
 			isa = PBXGroup;
 			children = (
-				7A023B6315BA54D00021A6DD /* OpenCVTestAppDelegate.h */,
-				7A023B6415BA54D00021A6DD /* OpenCVTestAppDelegate.m */,
-				C173294C15BB11BF00C367B9 /* OpenCVTestViewController.h */,
-				C173294D15BB11BF00C367B9 /* OpenCVTestViewController.mm */,
+				7A023B6315BA54D00021A6DD /* OpenCVTestsAppDelegate.h */,
+				7A023B6415BA54D00021A6DD /* OpenCVTestsAppDelegate.m */,
+				C173294C15BB11BF00C367B9 /* OpenCVTestsViewController.h */,
+				C173294D15BB11BF00C367B9 /* OpenCVTestsViewController.mm */,
 				C127A87315C47813008E6363 /* CWrapper.h */,
 				C178B7CE15BE15D9008E0CB6 /* CVImageConverter.h */,
 				C178B7CF15BE15D9008E0CB6 /* CVImageConverter.mm */,
@@ -2186,16 +2186,17 @@
 				7A023B6915BA54D00021A6DD /* MainStoryboard_iPad.storyboard */,
 				7A023B5B15BA54D00021A6DD /* Supporting Files */,
 			);
+			name = OpenCVTests;
 			path = OpenCVTest;
 			sourceTree = "<group>";
 		};
 		7A023B5B15BA54D00021A6DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				7A023B5C15BA54D00021A6DD /* OpenCVTest-Info.plist */,
+				7A023B5C15BA54D00021A6DD /* OpenCVTests-Info.plist */,
 				7A023B5D15BA54D00021A6DD /* InfoPlist.strings */,
 				7A023B6015BA54D00021A6DD /* main.m */,
-				7A023B6215BA54D00021A6DD /* OpenCVTest-Prefix.pch */,
+				7A023B6215BA54D00021A6DD /* OpenCVTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -2229,7 +2230,7 @@
 				C127A82915C45E61008E6363 /* test_precomp.hpp */,
 				C127A82A15C45E61008E6363 /* test_reproject_image_to_3d.cpp */,
 				C127A82B15C45E61008E6363 /* test_solvepnp_ransac.cpp */,
-				C127A82C15C45E61008E6363 /* test_stereomatching.cpp */,
+				C1DCAF3B15C6F484003F836B /* test_stereomatching.cpp */,
 				C127A82D15C45E61008E6363 /* test_undistort.cpp */,
 				C127A82E15C45E61008E6363 /* test_undistort_badarg.cpp */,
 				C127A82F15C45E61008E6363 /* test_undistort_points.cpp */,
@@ -3918,9 +3919,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A023B4F15BA54D00021A6DD /* OpenCVTest */ = {
+		7A023B4F15BA54D00021A6DD /* OpenCVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A023B7115BA54D00021A6DD /* Build configuration list for PBXNativeTarget "OpenCVTest" */;
+			buildConfigurationList = 7A023B7115BA54D00021A6DD /* Build configuration list for PBXNativeTarget "OpenCVTests" */;
 			buildPhases = (
 				7A023B4C15BA54D00021A6DD /* Sources */,
 				7A023B4D15BA54D00021A6DD /* Frameworks */,
@@ -3930,9 +3931,9 @@
 			);
 			dependencies = (
 			);
-			name = OpenCVTest;
+			name = OpenCVTests;
 			productName = OpenCVTest;
-			productReference = 7A023B5015BA54D00021A6DD /* OpenCVTest.app */;
+			productReference = 7A023B5015BA54D00021A6DD /* OpenCVTests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -3943,7 +3944,7 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 7A023B4A15BA54CF0021A6DD /* Build configuration list for PBXProject "OpenCVTest" */;
+			buildConfigurationList = 7A023B4A15BA54CF0021A6DD /* Build configuration list for PBXProject "OpenCVTests" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -3955,7 +3956,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A023B4F15BA54D00021A6DD /* OpenCVTest */,
+				7A023B4F15BA54D00021A6DD /* OpenCVTests */,
 			);
 		};
 /* End PBXProject section */
@@ -4973,8 +4974,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A023B6115BA54D00021A6DD /* main.m in Sources */,
-				7A023B6515BA54D00021A6DD /* OpenCVTestAppDelegate.m in Sources */,
-				C173294F15BB11BF00C367B9 /* OpenCVTestViewController.mm in Sources */,
+				7A023B6515BA54D00021A6DD /* OpenCVTestsAppDelegate.m in Sources */,
+				C173294F15BB11BF00C367B9 /* OpenCVTestsViewController.mm in Sources */,
 				C1C2ECEE15BDA3ED0069C734 /* createPlots.p in Sources */,
 				C1C2EE0415BDA3ED0069C734 /* mat2xml.m in Sources */,
 				C1C2EFDC15BDD92A0069C734 /* precomp.cpp in Sources */,
@@ -5000,7 +5001,6 @@
 				C127A83D15C45E61008E6363 /* test_precomp.cpp in Sources */,
 				C127A83E15C45E61008E6363 /* test_reproject_image_to_3d.cpp in Sources */,
 				C127A83F15C45E61008E6363 /* test_solvepnp_ransac.cpp in Sources */,
-				C127A84015C45E61008E6363 /* test_stereomatching.cpp in Sources */,
 				C127A84115C45E61008E6363 /* test_undistort.cpp in Sources */,
 				C127A84215C45E61008E6363 /* test_undistort_badarg.cpp in Sources */,
 				C127A84315C45E61008E6363 /* test_undistort_points.cpp in Sources */,
@@ -5021,6 +5021,7 @@
 				C1DCAF2B15C6EB34003F836B /* perf_reduce.cpp in Sources */,
 				C1DCAF2C15C6EB34003F836B /* perf_split.cpp in Sources */,
 				C1DCAF2D15C6EB34003F836B /* perf_stat.cpp in Sources */,
+				C1DCAF3C15C6F484003F836B /* test_stereomatching.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5111,9 +5112,9 @@
 					"\"$(SRCROOT)/../../opencv\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OpenCVTest/OpenCVTest-Prefix.pch";
-				INFOPLIST_FILE = "OpenCVTest/OpenCVTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "OpenCVTest/OpenCVTests-Prefix.pch";
+				INFOPLIST_FILE = "OpenCVTest/OpenCVTests-Info.plist";
+				PRODUCT_NAME = OpenCVTests;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -5128,9 +5129,9 @@
 					"\"$(SRCROOT)/../../opencv\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "OpenCVTest/OpenCVTest-Prefix.pch";
-				INFOPLIST_FILE = "OpenCVTest/OpenCVTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "OpenCVTest/OpenCVTests-Prefix.pch";
+				INFOPLIST_FILE = "OpenCVTest/OpenCVTests-Info.plist";
+				PRODUCT_NAME = OpenCVTests;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -5138,7 +5139,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A023B4A15BA54CF0021A6DD /* Build configuration list for PBXProject "OpenCVTest" */ = {
+		7A023B4A15BA54CF0021A6DD /* Build configuration list for PBXProject "OpenCVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A023B6F15BA54D00021A6DD /* Debug */,
@@ -5147,7 +5148,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A023B7115BA54D00021A6DD /* Build configuration list for PBXNativeTarget "OpenCVTest" */ = {
+		7A023B7115BA54D00021A6DD /* Build configuration list for PBXNativeTarget "OpenCVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7A023B7215BA54D00021A6DD /* Debug */,

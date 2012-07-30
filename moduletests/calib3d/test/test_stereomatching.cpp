@@ -449,7 +449,7 @@ void CV_StereoMatchingTest::run(int)
         fflush(stdout);
         string datasetName = caseDatasets[ci];
         string datasetFullDirName = dataPath + DATASETS_DIR + datasetName + "/";
-
+        
         // SHIRMUNG:
         // loading image as UIImage and converting to cv::Mat
         // "int flags=0, the loaded image is forced to be grayscale"        
@@ -457,7 +457,7 @@ void CV_StereoMatchingTest::run(int)
         Mat rightImg = wrapCVImageConverter((datasetFullDirName + RIGHT_IMG_NAME).c_str(), 1);
         Mat trueLeftDisp = wrapCVImageConverter((datasetFullDirName + TRUE_LEFT_DISP_NAME).c_str(), 0);
         Mat trueRightDisp = wrapCVImageConverter((datasetFullDirName + TRUE_RIGHT_DISP_NAME).c_str(), 0);
-
+        
         //Mat leftImg = imread(datasetFullDirName + LEFT_IMG_NAME);
         //Mat rightImg = imread(datasetFullDirName + RIGHT_IMG_NAME);
         //Mat trueLeftDisp = imread(datasetFullDirName + TRUE_LEFT_DISP_NAME, 0);

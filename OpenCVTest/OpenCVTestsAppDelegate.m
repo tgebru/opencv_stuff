@@ -1,14 +1,14 @@
 //
-//  OpenCVTestAppDelegate.m
-//  OpenCVTest
+//  OpenCVTestsAppDelegate.m
+//  OpenCVTests
 //
 //  Created by timnit gebru on 7/20/12.
 //  Copyright (c) 2012. All rights reserved.
 //
 
-#import "OpenCVTestAppDelegate.h"
+#import "OpenCVTestsAppDelegate.h"
 
-@implementation OpenCVTestAppDelegate
+@implementation OpenCVTestsAppDelegate
 
 @synthesize window = _window;
 
