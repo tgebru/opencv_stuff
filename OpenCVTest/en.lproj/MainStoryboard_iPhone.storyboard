@@ -1,28 +1,107 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2549" systemVersion="11E53" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="PcW-4s-5Wm">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1498"/>
     </dependencies>
     <scenes>
-        <!--OpenCV Tests View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="EyE-Zh-Dh1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sXw-eG-AU8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="PcW-4s-5Wm" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ier-GK-bZc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="uzN-AY-BT4" kind="relationship" relationship="rootViewController" id="IKI-lm-qhD"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1354" y="-1201"/>
+        </scene>
+        <!--Test Table View Controller - Select Tests-->
+        <scene sceneID="ziT-5p-Ows">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zhh-3o-xHD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="uzN-AY-BT4" customClass="TestTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="yl7-j1-Reu">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="TestTableCell" id="Epq-jG-1Dp" customClass="TestTableViewCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="nBf-ET-zbx">
+                                            <rect key="frame" x="20" y="0.0" width="193" height="43"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="ovh-uN-D01">
+                                            <rect key="frame" x="221" y="8" width="79" height="27"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </switch>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="lightSwitch" destination="ovh-uN-D01" id="tQ5-pP-aGw"/>
+                                    <outlet property="nameLabel" destination="nBf-ET-zbx" id="WgV-PG-cf6"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="uzN-AY-BT4" id="E30-UY-RPn"/>
+                            <outlet property="delegate" destination="uzN-AY-BT4" id="pGW-4h-9hl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Select Tests" id="laJ-bk-cIt">
+                        <barButtonItem key="rightBarButtonItem" title="Run" style="done" id="1sY-W1-8Qs">
+                            <connections>
+                                <segue destination="2" kind="push" id="mUl-Df-dtX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-912" y="-1201"/>
+        </scene>
+        <!--Running Tests View Controller - Running Tests-->
         <scene sceneID="5">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <viewController id="2" customClass="OpenCVTestsViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="RunningTestsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Running Tests" id="vpC-zt-ALC"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="123" y="-366"/>
+            <point key="canvasLocation" x="-485" y="-1201"/>
         </scene>
     </scenes>
     <classes>
-        <class className="OpenCVTestsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/OpenCVTestsViewController.h"/>
+        <class className="RunningTestsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/RunningTestsViewController.h"/>
+        </class>
+        <class className="TestTableViewCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TestTableViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="lightSwitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+        <class className="TestTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TestTableViewController.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
