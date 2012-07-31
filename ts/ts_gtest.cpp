@@ -38,6 +38,8 @@
 // when it's fused.
 #include "precomp.hpp"
 
+#include "CWrapper.h"
+
 #ifdef __GNUC__
 #  pragma GCC diagnostic ignored "-Wmissing-declarations"
 #endif
@@ -4052,6 +4054,11 @@ void PrettyUnitTestResultPrinter::OnTestIterationStart(
   printf("Running %s from %s.\n",
          FormatTestCount(unit_test.test_to_run_count()).c_str(),
          FormatTestCaseCount(unit_test.test_case_to_run_count()).c_str());
+
+  grabOutput("[==========] Running %s from %s.\n");
+  grabOutput(FormatTestCount(unit_test.test_to_run_count()).c_str());
+  grabOutput(FormatTestCaseCount(unit_test.test_case_to_run_count()).c_str());
+
   fflush(stdout);
 }
 
@@ -4059,6 +4066,9 @@ void PrettyUnitTestResultPrinter::OnEnvironmentsSetUpStart(
     const UnitTest& /*unit_test*/) {
   ColoredPrintf(COLOR_GREEN,  "[----------] ");
   printf("Global test environment set-up.\n");
+
+  grabOutput("[----------] Global test environment set-up.\n");
+
   fflush(stdout);
 }
 

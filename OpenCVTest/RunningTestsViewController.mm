@@ -80,4 +80,9 @@ cv::Mat wrapCVImageConverter(const char* fileName, int flag)
     return mat;
 }
 
+void grabOutput(const char* output)
+{
+    NSLog(@"%@", [NSString stringWithCString:output encoding:[NSString defaultCStringEncoding]]);
+}
+
 @end

@@ -11,4 +11,6 @@
 
 cv::Mat wrapCVImageConverter(const char* fileName, int flag);
 
+void grabOutput(const char* output);
+
 #endif
