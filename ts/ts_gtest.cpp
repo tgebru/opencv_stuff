@@ -4055,9 +4055,10 @@ void PrettyUnitTestResultPrinter::OnTestIterationStart(
          FormatTestCount(unit_test.test_to_run_count()).c_str(),
          FormatTestCaseCount(unit_test.test_case_to_run_count()).c_str());
 
-  grabOutput("[==========] Running %s from %s.\n");
-  grabOutput(FormatTestCount(unit_test.test_to_run_count()).c_str());
-  grabOutput(FormatTestCaseCount(unit_test.test_case_to_run_count()).c_str());
+  int size = snprintf(NULL, 0, "[==========] Running %s from %s.\n", FormatTestCount(unit_test.test_to_run_count()).c_str(), FormatTestCaseCount(unit_test.test_case_to_run_count()).c_str());
+  char* buffer = (char*)malloc(size + 1);
+  std::sprintf(buffer, "[==========] Running %s from %s.\n", FormatTestCount(unit_test.test_to_run_count()).c_str(), FormatTestCaseCount(unit_test.test_case_to_run_count()).c_str());
+  grabOutput(buffer);
 
   fflush(stdout);
 }
@@ -4083,6 +4084,12 @@ void PrettyUnitTestResultPrinter::OnTestCaseStart(const TestCase& test_case) {
   } else {
     printf(", where TypeParam = %s\n", test_case.type_param());
   }
+
+  int size = snprintf(NULL, 0, "[----------] %s from %s\n", counts.c_str(), test_case_name_.c_str());
+  char* buffer = (char*)malloc(size + 1);
+  std::sprintf(buffer, "[----------] %s from %s\n", counts.c_str(), test_case_name_.c_str());
+  grabOutput(buffer);
+
   fflush(stdout);
 }
 
@@ -4090,6 +4097,12 @@ void PrettyUnitTestResultPrinter::OnTestStart(const TestInfo& test_info) {
   ColoredPrintf(COLOR_GREEN,  "[ RUN      ] ");
   PrintTestName(test_case_name_.c_str(), test_info.name());
   printf("\n");
+
+  int size = snprintf(NULL, 0, "[ RUN      ] %s%s\n", test_case_name_.c_str(), test_info.name());
+  char* buffer = (char*)malloc(size + 1);
+  std::sprintf(buffer, "[ RUN      ] %s.%s\n", test_case_name_.c_str(), test_info.name());
+  grabOutput(buffer);
+
   fflush(stdout);
 }
 
@@ -4118,6 +4131,13 @@ void PrettyUnitTestResultPrinter::OnTestEnd(const TestInfo& test_info) {
   if (GTEST_FLAG(print_time)) {
     printf(" (%s ms)\n", internal::StreamableToString(
            test_info.result()->elapsed_time()).c_str());
+
+    int size = snprintf(NULL, 0, "[       OK ] %s%s (%s ms)\n", test_case_name_.c_str(), test_info.name(),
+                        internal::StreamableToString(test_info.result()->elapsed_time()).c_str());
+    char* buffer = (char*)malloc(size + 1);
+    std::sprintf(buffer, "[       OK ] %s%s (%s ms)\n", test_case_name_.c_str(), test_info.name(),
+                 internal::StreamableToString(test_info.result()->elapsed_time()).c_str());
+    grabOutput(buffer);
   } else {
     printf("\n");
   }
@@ -4134,6 +4154,14 @@ void PrettyUnitTestResultPrinter::OnTestCaseEnd(const TestCase& test_case) {
   printf("%s from %s (%s ms total)\n\n",
          counts.c_str(), test_case_name_.c_str(),
          internal::StreamableToString(test_case.elapsed_time()).c_str());
+
+  int size = snprintf(NULL, 0, "[----------] %s from %s (%s ms total)\n\n", counts.c_str(), test_case_name_.c_str(),
+                      internal::StreamableToString(test_case.elapsed_time()).c_str());
+  char* buffer = (char*)malloc(size + 1);
+  std::sprintf(buffer, "[----------] %s from %s (%s ms total)\n\n", counts.c_str(), test_case_name_.c_str(),
+               internal::StreamableToString(test_case.elapsed_time()).c_str());
+  grabOutput(buffer);
+
   fflush(stdout);
 }
 
@@ -4141,6 +4169,9 @@ void PrettyUnitTestResultPrinter::OnEnvironmentsTearDownStart(
     const UnitTest& /*unit_test*/) {
   ColoredPrintf(COLOR_GREEN,  "[----------] ");
   printf("Global test environment tear-down\n");
+
+  grabOutput("[----------] Global test environment tear-down\n");
+
   fflush(stdout);
 }
 
@@ -4180,8 +4211,21 @@ void PrettyUnitTestResultPrinter::OnTestIterationEnd(const UnitTest& unit_test,
            internal::StreamableToString(unit_test.elapsed_time()).c_str());
   }
   printf("\n");
+
+  int size = snprintf(NULL, 0, "[==========] %s from %s ran. (%s ms total)\n", FormatTestCount(unit_test.test_to_run_count()).c_str(),
+                        FormatTestCaseCount(unit_test.test_case_to_run_count()).c_str(), internal::StreamableToString(unit_test.elapsed_time()).c_str());
+  char* buffer = (char*)malloc(size + 1);
+    std::sprintf(buffer, "[==========] %s from %s ran. (%s ms total)\n", FormatTestCount(unit_test.test_to_run_count()).c_str(),
+                 FormatTestCaseCount(unit_test.test_case_to_run_count()).c_str(), internal::StreamableToString(unit_test.elapsed_time()).c_str());
+  grabOutput(buffer);
+
   ColoredPrintf(COLOR_GREEN,  "[  PASSED  ] ");
   printf("%s.\n", FormatTestCount(unit_test.successful_test_count()).c_str());
+
+  size = snprintf(NULL, 0, "[  PASSED  ] %s.\n", FormatTestCount(unit_test.successful_test_count()).c_str());
+  buffer = (char*)malloc(size + 1);
+  std::sprintf(buffer, "[  PASSED  ] %s.\n", FormatTestCount(unit_test.successful_test_count()).c_str());
+  grabOutput(buffer);
 
   int num_failures = unit_test.failed_test_count();
   if (!unit_test.Passed()) {

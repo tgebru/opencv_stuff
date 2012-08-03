@@ -18,28 +18,29 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 
-//    BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:[self resultsFilePath]];
-//    
-//    if (fileExists) {
-//        // for now just print to console
-//        NSString *resultsString = [NSString stringWithContentsOfFile:[self resultsFilePath] encoding:NSUTF8StringEncoding error:nil];
-//        NSLog(@"%@", resultsString);
-//    } else {
-//        int argc = 0;
-//        char **argv = NULL;
-//    
-//        cvtest::TS::ptr()->init("cv");
-//
-//        //::perf::Regression::Init("core");
-//        //::perf::TestBase::Init(argc, argv);
-//        ::testing::InitGoogleTest(&argc, argv);
-//    
-//        NSString *objCString = [NSString stringWithFormat:@"xml:%@", [self resultsFilePath]];
-//        std::string cString = [objCString cStringUsingEncoding:[NSString defaultCStringEncoding]];
-//        ::testing::GTEST_FLAG(output) = cString;
-//     
-//        RUN_ALL_TESTS();
-//    }
+    // this should be started on a separate thread
+    BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:[self resultsFilePath]];
+
+    if (fileExists) {
+        // for now just print to console
+        NSString *resultsString = [NSString stringWithContentsOfFile:[self resultsFilePath] encoding:NSUTF8StringEncoding error:nil];
+        NSLog(@"%@", resultsString);
+    } else {
+        int argc = 0;
+        char **argv = NULL;
+
+        cvtest::TS::ptr()->init("cv");
+
+        //::perf::Regression::Init("core");
+        //::perf::TestBase::Init(argc, argv);
+        ::testing::InitGoogleTest(&argc, argv);
+
+        NSString *objCString = [NSString stringWithFormat:@"xml:%@", [self resultsFilePath]];
+        std::string cString = [objCString cStringUsingEncoding:[NSString defaultCStringEncoding]];
+        ::testing::GTEST_FLAG(output) = cString;
+
+        RUN_ALL_TESTS();
+    }
 }
 
 - (void)viewDidUnload
