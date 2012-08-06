@@ -8,6 +8,7 @@
 
 #import "TestTableViewController.h"
 #import "TestTableViewCell.h"
+#import "RunningTestsViewController.h"
 
 @implementation TestTableViewController
 
@@ -42,7 +43,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return TRUE;
 }
 
 #pragma mark - Table view data source
@@ -61,7 +62,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifier = @"TestTableCell";
+    static NSString *cellIdentifier = @"TestCell";
     TestTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     
     if (cell == nil) cell = [[TestTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
@@ -121,6 +122,17 @@
      // Pass the selected object to the new view controller.
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    RunningTestsViewController *runningTestsViewController = [segue destinationViewController];
+
+    TestTableViewCell *calib3dTestTableViewCell = (TestTableViewCell *)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+
+    if ([calib3dTestTableViewCell.lightSwitch isOn]) {
+        runningTestsViewController.calib3dTest = YES;
+    }
 }
 
 @end
